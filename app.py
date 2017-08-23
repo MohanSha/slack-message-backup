@@ -1,4 +1,4 @@
-from flask import request, Response
+from flask import Flask, request, Response
 
 # Initialize the Flask application
 app = Flask(__name__)
