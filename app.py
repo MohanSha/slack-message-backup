@@ -23,7 +23,7 @@ def data_distribution(data):
 
     if event_type is "channel_created":
         channel_created(data)
-    else if event_type is "message":
+    elif event_type is "message":
         message_posted(data)
     else:
         print(json.dumps(data, indent=4))
