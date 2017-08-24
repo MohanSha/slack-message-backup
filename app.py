@@ -60,8 +60,15 @@ def channel_created(data):
         ref_file.close()
 
 def message_posted(data):
-    print("message was posted")
-    pass
+    channel_id = data["event"]["channel"]
+
+    # Getting the name of the channel based on the channel id
+    with open("channels/channel_ref.json", "r") as channel_ref:
+        ref = json.loads(channel_ref)
+        channel_name = ref[channel_id]
+        channel_ref.close()
+
+    print(channel_name)
 
 
 if __name__ == '__main__':
