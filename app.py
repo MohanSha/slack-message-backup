@@ -48,7 +48,7 @@ def channel_created(data):
     ref_file.close()
 
 
-def message_posted():
+def message_posted(data):
     print("message was posted")
     pass
 
