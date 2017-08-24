@@ -32,7 +32,9 @@ def data_distribution(data):
 
 
 def channel_created(data):
-    '''creates new file for channel '''
+    '''
+        Creates new file for channel & Adds the id and the name of the channel
+    '''
 
     channel_name = data["event"]["channel"]["name_normalized"]
     channel_id = data["event"]["channel"]["id"]
@@ -40,20 +42,20 @@ def channel_created(data):
     file = open(file_path, "w+")
     file.close()
 
-    # add channel and id to a dict for reference
-
+    # adding channel and id to a dict for reference
+    with open("channel_ref.json", "r") as ref_file:
+        ref = ref_file.read()
+        ref_file.close()
     try:
-        ref_file = open("channel_ref.json", "r+")
-        ref_file.seek(0, 0)
-        # Checking if the file is empty
-        ref = json.loads(ref_file.read())
+        ref = json.loads(ref)
     except:
-        ref_file = open("channel_ref.json", "w+")
         ref = {}
-    ref.update({channel_id: channel_name})
-    ref_file.write(json.dumps(ref, indent=4))
-    ref_file.close()
 
+    ref.update({channel_id: channel_name})
+
+    with open("channel_ref.json", "w") as ref_file:
+        ref_file.write(json.dumps(ref, indent=4))
+        ref_file.close()
 
 def message_posted(data):
     print("message was posted")
