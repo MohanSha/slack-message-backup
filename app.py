@@ -46,6 +46,8 @@ def channel_created(data):
         # Checking if the file is empty
         ref = json.loads(ref_file.read())
     except:
+        print("creating new dict")
+        break
         ref = {}
     ref.update({channel_id: channel_name})
     ref_file.write(json.dumps(ref, indent=4))
