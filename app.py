@@ -64,7 +64,7 @@ def message_posted(data):
 
     # Getting the name of the channel based on the channel id
     with open("channels/channel_ref.json", "r") as channel_ref:
-        ref = json.loads(channel_ref)
+        ref = json.loads(channel_ref.read())
         channel_name = ref[channel_id]
         channel_ref.close()
 
