@@ -1,5 +1,6 @@
 from flask import Flask, request, Response
 import json
+import os
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -43,7 +44,8 @@ def channel_created(data):
     file.close()
 
     # adding channel and id to a dict for reference
-    with open("channel_ref.json", "r") as ref_file:
+    channel_ref = "channels/channel_ref.json"
+    with open(channel_ref, "r") as ref_file:
         ref = ref_file.read()
         ref_file.close()
     try:
@@ -53,7 +55,7 @@ def channel_created(data):
 
     ref.update({channel_id: channel_name})
 
-    with open("channel_ref.json", "w") as ref_file:
+    with open(channel_ref, "w") as ref_file:
         ref_file.write(json.dumps(ref, indent=4))
         ref_file.close()
 
@@ -61,7 +63,13 @@ def message_posted(data):
     print("message was posted")
     pass
 
-# Run the app :)
+
 if __name__ == '__main__':
-  app.run(host="0.0.0.0",
-          debug=True)
+    # Creating necesary directories and files if they dont exist
+    channel_ref = "channels/channel_ref.json"
+    if not os.path.exists("channels"):
+        os.makedirs("channels")
+    open(channel_ref, "a").close()
+    # Run the app :)
+    app.run(host="0.0.0.0",
+            debug=True)
