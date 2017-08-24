@@ -41,7 +41,7 @@ def channel_created(data):
     file.close()
 
     # add channel and id to a dict for reference
-    ref_file = open("channel_ref.json", "a+")
+    ref_file = open("channel_ref.json", "w+")
     ref_file.seek(0, 0)
     try:
         # Checking if the file is empty
