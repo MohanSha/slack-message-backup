@@ -7,7 +7,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 ''' Getting data from post requests '''
-@app.route('/', methods=["POST"])
+@app.route("/", methods=["POST"])
 def info():
     data = request.get_json()
     try:
@@ -16,6 +16,15 @@ def info():
     except:
         data_distribution(data)
     return(":)")
+
+@app.route("/channels/<channel_name>", methods=["GET"])
+def getting_history(channel_name):
+    # Getting channel info
+    file_path = "channels/{}.json".format(channel_name)
+    with open(file_path, "r") as channel:
+        history = channel.read()
+        channel.close()
+    return (history)
 
 
 def data_distribution(data):
