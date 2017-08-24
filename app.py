@@ -1,5 +1,6 @@
 from flask import Flask, request, Response
 from query_api.history import history
+import os
 
 # Initialize the Flask application
 app = Flask(__name__)
