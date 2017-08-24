@@ -1,6 +1,7 @@
 from flask import Flask, request, Response
 import json
 import os
+from datetime import datetime
 
 # Initialize the Flask application
 app = Flask(__name__)
@@ -60,7 +61,11 @@ def channel_created(data):
         ref_file.close()
 
 def message_posted(data):
+    user = data["event"]["user"]
+    text = data["event"]["text"]
     channel_id = data["event"]["channel"]
+    ts = data["event"]["ts"]
+    time = datetime.fromtimestamp(int(ts)).strftime('%Y-%m-%d %H:%M:%S')
 
     # Getting the name of the channel based on the channel id
     with open("channels/channel_ref.json", "r") as channel_ref:
@@ -68,7 +73,21 @@ def message_posted(data):
         channel_name = ref[channel_id]
         channel_ref.close()
 
-    print(channel_name)
+    file_path = "channels/{}.json".format(channel_name)
+    with open(file_path, "r") as channel:
+        try:
+            # When the file is not empty
+            content = json.loads(channel.read())
+        except:
+            content = {}
+        channel.close()
+
+    content.update({user: [time, text]})
+
+    # Writting new messeges into the file
+    with open(file_path, "w") as channel:
+        channel.write(json.dumps(content, indent=4))
+        channel.close()
 
 
 if __name__ == '__main__':
