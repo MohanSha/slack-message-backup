@@ -82,7 +82,10 @@ def message_posted(data):
             content = {}
         channel.close()
 
-    content.update({time: [user, text]})
+    content.update({time:
+                    [{"user": user}
+                    , {"text":text}
+                    ]})
 
     # Writting new messeges into the file
     with open(file_path, "w") as channel:
