@@ -47,7 +47,7 @@ def channel_created(data):
         ref = json.loads(ref_file.read())
     except:
         print("creating new dict")
-        break
+        return
         ref = {}
     ref.update({channel_id: channel_name})
     ref_file.write(json.dumps(ref, indent=4))
