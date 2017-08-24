@@ -65,7 +65,7 @@ def message_posted(data):
     text = data["event"]["text"]
     channel_id = data["event"]["channel"]
     ts = data["event"]["ts"]
-    time = datetime.fromtimestamp(int(ts)).strftime('%Y-%m-%d %H:%M:%S')
+    time = datetime.fromtimestamp(float(ts)).strftime('%Y-%m-%d %H:%M:%S')
 
     # Getting the name of the channel based on the channel id
     with open("channels/channel_ref.json", "r") as channel_ref:
