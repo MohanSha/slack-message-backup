@@ -20,26 +20,26 @@ school's Slack team and have access to it whenever we need it.
 
 + Now on you server, using python3 virtual environment run:
 
-```python3 -m venv .```
+    ```python3 -m venv .```
 
-```source bin/activate```
+    ```source bin/activate```
 
-```pip3 install -r requirements```
+    ```pip3 install -r requirements```
 
 + Now you should be able to run your application in a server by running
 
-```python3 app.py```
+    ```python3 app.py```
 
 + Go back to your Event subscriptions and copy paste the url of your server for example:
 
-```http://54.200.102.199:5000/```
+    ```http://54.200.102.199:5000/```
 
 + Now add your desired team events you will at least need user:read, channel:history and
 channel:read
 
 + Under settings select Install App and copy the slack token. On your server export your token
 
-```export token_slack="[Your applicaton's token should start with xoxp-] ```
+    ```export token_slack="[Your applicaton's token should start with xoxp-] ```
 
 + Now you need to set up the neccesary files for user refereces and channels
 you can do this by
