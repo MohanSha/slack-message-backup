@@ -1,4 +1,4 @@
-# Sypnosis
+# Synopsis
 
 This is a proof of concept to understand better slack's API.
 The goal is to successfully backup all the messages in all the channels that
