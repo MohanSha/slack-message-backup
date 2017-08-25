@@ -20,7 +20,7 @@ def info():
         history(data).data_distribution()
     return(":)")
 
-@app.route("/channels/<channel_name>", methods=["GET"])
+@app.route("/channel/<channel_name>", methods=["GET"])
 def getting_history(channel_name):
     '''
         Retrives channels history based on a channel name and returns it to
