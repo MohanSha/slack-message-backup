@@ -3,3 +3,5 @@ include
 lib
 *.cfg
 *.pyc
+channels/*
+users/*

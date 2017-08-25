@@ -8,6 +8,10 @@ app = Flask(__name__)
 ''' Getting data from post requests '''
 @app.route("/", methods=["POST"])
 def info():
+    '''
+        On the first call with Slack's API it authenticates the server.
+        After that it passes the json data to other functions
+    '''
     data = request.get_json()
     try:
         # only used for once for app verification
@@ -18,16 +22,16 @@ def info():
 
 @app.route("/channels/<channel_name>", methods=["GET"])
 def getting_history(channel_name):
+    '''
+        Retrives channels history based on a channel name and returns it to
+        the desired route
+    '''
     # Getting channel info
     file_path = "channels/{}.json".format(channel_name)
     with open(file_path, "r") as channel:
         history = channel.read()
         channel.close()
     return (history)
-
-
-
-
 
 if __name__ == '__main__':
     # Creating necesary directories and files if they dont exist
