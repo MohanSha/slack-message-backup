@@ -56,7 +56,7 @@ class history:
 
         # Getting user name using the user id
         with open("users/users.json", "r") as users:
-            find_user = user.read()
+            find_user = users.read()
             close.users()
 
         user_name = find_user[user_id]
