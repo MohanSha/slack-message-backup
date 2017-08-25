@@ -60,7 +60,7 @@ class history:
             users.close()
 
 
-        user_name = json.loads(find_user[user_id])
+        user_name = json.loads(find_user)[user_id]
 
         # Getting the name of the channel based on the channel id
         with open("channels/channel_ref.json", "r") as channel_ref:
