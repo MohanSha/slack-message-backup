@@ -10,18 +10,35 @@ import json
 
 def getting_channels(token):
     '''
-        Creates a file per channel
+        Creates a file per channel and updating references
     '''
     url = "https://slack.com/api/channels.list?token={}".format(token)
     response = requests.get(url)
     channels_list = response.json()
 
-    chanel_ref = {}
 
+    # Getting the channel_rerefence
+    with open ("channels/channel_ref.json", "a+")as channel_ref:
+        channel_ref.seek(0, 0)
+        channel_info = channel_ref.read()
+        channel_ref.close()
+
+    try:
+        ref = json.loads(channel_info)
+    except:
+        ref = {}
+
+    # Creating a file per channel
     for channels in channels_list["channels"]:
         file_path = "channels/{}.json".format(channels["name"])
         file = open(file_path, "w+")
         file.close()
+        ref.update({channels["id"]: channels["name"]})
+
+    # Updating references for channels
+    with open ("channels/channel_ref.json", "w")as channel_ref:
+        channel_ref.write(json.dumps(ref, indent=4))
+        channel_ref.close()
 
 def getting_users():
     '''
