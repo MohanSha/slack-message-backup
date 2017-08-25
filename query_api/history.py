@@ -48,11 +48,18 @@ class history:
             ref_file.close()
 
     def message_posted(self):
-        user = self.data["event"]["user"]
+        user_id = self.data["event"]["user"]
         text = self.data["event"]["text"]
         channel_id = self.data["event"]["channel"]
         ts = self.data["event"]["ts"]
         time = datetime.fromtimestamp(float(ts)).strftime('%Y-%m-%d %H:%M:%S')
+
+        # Getting user name using the user id
+        with open("users/users.json", "r") as users:
+            find_user = user.read()
+            close.users()
+
+        user_name = find_user[user_id]
 
         # Getting the name of the channel based on the channel id
         with open("channels/channel_ref.json", "r") as channel_ref:
@@ -70,7 +77,7 @@ class history:
             channel.close()
 
         content.update({time:
-                        [{"user": user}
+                        [{"user": user_name}
                         , {"text":text}
                         ]})
 

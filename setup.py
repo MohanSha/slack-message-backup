@@ -27,6 +27,29 @@ def getting_users():
     '''
         Creates references for users
     '''
+    url = "https://slack.com/api/users.list?token={}".format(token)
+    response = requests.get(url)
+    user_list = response.json()
+
+    with open("users/users.json", "a+") as user_file:
+        user_file.seek(0,0)
+        user_names = user_file.read()
+        user_file.close()
+
+    try:
+        user_names = json.loads(user_names)
+    except:
+        user_names = {}
+
+    for user in user_list["members"]:
+        user_id = user["id"]
+        user_name = user["name"]
+        user_names.update({user_id: user_name})
+
+    with open("users/users.json", "w") as user_file:
+        user_file.write(json.dumps(user_names, indent=4))
+        user_file.close()
+
 
 
 
