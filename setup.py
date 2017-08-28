@@ -99,7 +99,7 @@ def create_groups(token):
         ref.update({group["id"]: group["name"]})
 
     # Updating references for private channels
-    with open ("channels/channel_ref.json", "w")as channel_ref:
+    with open ("groups/channel_ref.json", "w")as channel_ref:
         channel_ref.write(json.dumps(ref, indent=4))
         channel_ref.close()
 
