@@ -34,8 +34,8 @@ school's Slack team and have access to it whenever we need it.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;```http://54.200.102.199:5000/```
 
-+ Now add your desired team events you will at least need user:read, channel:history and
-channel:read
++ Now add your desired team events. You will need channel_created, channel_deleted, messages.channels,
+message.groups, user_change.
 
 + Under settings select Install App and copy the slack token. On your server export your token
 
