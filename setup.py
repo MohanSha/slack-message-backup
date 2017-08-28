@@ -156,6 +156,6 @@ def channel_history(token):
 if __name__ == "__main__":
     token = os.getenv("token_slack")
     getting_channels(token)
-    # getting_users(token)
-    # create_groups(token)
+    getting_users(token)
+    create_groups(token)
     channel_history(token)
