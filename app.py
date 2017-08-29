@@ -33,6 +33,16 @@ def getting_history(channel_name):
         channel.close()
     return (history)
 
+@app.route("group/<group_name>", methods=["GET"])
+def group_history(group_name):
+    '''
+        Retrives the history of a private channel
+    '''
+    file_path = "groups/{}.json".format(group_name)
+    with open(file_path, "r") as group:
+        history = group.read()
+    return(history)
+
 if __name__ == '__main__':
     # Creating necesary directories and files if they dont exist
     channel_ref = "channels/channel_ref.json"
