@@ -1,2 +1,14 @@
 requests
 flask
+Flask-login
+Werkzeug
+itsdangerous
+Flask-mail
+Flask-Bootstrap
+Flask-WTF
+Flask-SQLAlchemy
+Flask-Script
+mako
+SQLAlchemy
+Flask-Moment
+flask_migrate

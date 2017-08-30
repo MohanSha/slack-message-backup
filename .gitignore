@@ -3,3 +3,7 @@ include
 lib
 *.cfg
 *.pyc
+__pycache__
+*.sqlite
+*.json
+*.cfg

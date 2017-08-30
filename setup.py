@@ -143,4 +143,4 @@ if __name__ == "__main__":
     getting_channels(token)
     getting_users(token)
     create_groups(token)
-    #channel_history(token)
+    channel_history(token)
