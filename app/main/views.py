@@ -10,6 +10,7 @@ from ..models import User
 from flask import Flask, request, Response
 from .. query_api.history import history
 import os
+import json
 
 @main.route("/", methods=["POST"])
 def slack_auth():
@@ -25,6 +26,21 @@ def slack_auth():
         history(data).data_distribution()
     return(":)")
 
+@main.route("/directory", methods=["GET"])
+@login_required
+def directory():
+    '''
+        Displays a list of links for all the available channels
+    '''
+    with open("channels/channel_ref.json", "r") as chanel_ref:
+        ref = json.loads(chanel_ref.read())
+        chanel_ref.close()
+    channels = []
+    for key, value in ref.items():
+        channels.append(value)
+
+    return(render_template("directory.html", channel = channels))
+
 
 @main.route("/channel/<channel_name>", methods=["GET"])
 @login_required
@@ -39,3 +55,4 @@ def getting_history(channel_name=None):
         history = channel.read()
         channel.close()
     return (history)
+

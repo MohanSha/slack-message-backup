@@ -34,13 +34,6 @@ class RegistrationForm(Form):
         if User.query.filter_by(email=field.data).first():
             raise ValidationError("Email already registered!")
 
-    def validate_holberton_email(self, field):
-        print("==========")
-        print(field.data)
-        print('=============')
-        if "holbertonschool" not in field.data.email:
-            raise ValidationError("You need to use your Holberton school email")
-
     def validate_username(self, field):
         if User.query.filter_by(username=field.data).first():
             raise ValidationError("User name already taken.")
