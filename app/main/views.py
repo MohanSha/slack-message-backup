@@ -25,9 +25,10 @@ def slack_auth():
         history(data).data_distribution()
     return(":)")
 
+
 @main.route("/channel/<channel_name>", methods=["GET"])
 @login_required
-def getting_history(channel_name):
+def getting_history(channel_name=None):
     '''
         Retrives channels history based on a channel name and returns it to
         the desired route
