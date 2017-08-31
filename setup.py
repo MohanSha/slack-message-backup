@@ -116,6 +116,7 @@ def channel_history(token):
         history = response.json()
         load = {}
 
+        # print(history)
         for message in history["messages"]:
             # Getting the user and message
             try:
@@ -123,7 +124,11 @@ def channel_history(token):
             except:
                 text = ""
             try:
+                with open("users/users.json", "r") as user_ref:
+                    users = json.loads(user_ref.read())
+                    user_ref.close()
                 user = message["user"] # bandaid will fix later to handle files
+                user = users[user]
             except:
                 user = ""
             ts = message["ts"]
@@ -132,6 +137,7 @@ def channel_history(token):
 
         # Getting the file and writing to it
         file = "channels/{}.json".format(name)
+        print("Updating channel {}".format(name))
 
         with open(file, "w") as history_file:
             history_file.write(json.dumps(load, indent=4))
@@ -140,7 +146,7 @@ def channel_history(token):
 
 if __name__ == "__main__":
     token = os.getenv("token_slack")
-    getting_channels(token)
-    getting_users(token)
-    create_groups(token)
+    # getting_channels(token)
+    # getting_users(token)
+    # create_groups(token)
     channel_history(token)

@@ -52,7 +52,7 @@ def getting_history(channel_name=None):
     # Getting channel info
     file_path = "channels/{}.json".format(channel_name)
     with open(file_path, "r") as channel:
-        history = channel.read()
+        history = json.loads(channel.read())
         channel.close()
-    return (history)
+    return (render_template("channel.html", history= history))
 

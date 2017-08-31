@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf%}
+
+{% block title %}Holberton Channel directory {% endblock %}
+
+{% block page_content %}
+{% for key, value in history.items()%}
+<div class="card">
+        <div class="card-block">
+          <h4 class="card-title">{{value[0]["user"]}}</h4>
+          <h6>{{key}}</h6>
+          <p class="card-text">
+                {{value[1]["text"]}}
+          </p>
+        </div>
+      </div>
+{%endfor%}
+{% endblock %}
