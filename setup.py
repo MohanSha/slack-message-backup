@@ -116,25 +116,26 @@ def channel_history(token):
         history = response.json()
         load = {}
 
-        # print(history)
-        for message in history["messages"]:
-            # Getting the user and message
-            try:
-                text = message["text"] # bandaid will fix later to handle files
-            except:
-                text = ""
-            try:
-                with open("users/users.json", "r") as user_ref:
-                    users = json.loads(user_ref.read())
-                    user_ref.close()
-                user = message["user"] # bandaid will fix later to handle files
-                user = users[user]
-            except:
-                user = ""
-            ts = message["ts"]
-            time = datetime.fromtimestamp(float(ts)).strftime('%Y-%m-%d %H:%M:%S')
-            load.update({time : [{"user": user},{"text":text}]})
-
+        try:
+            for message in history["messages"]:
+                # Getting the user and message
+                try:
+                    text = message["text"] # bandaid will fix later to handle files
+                except:
+                    text = ""
+                try:
+                    with open("users/users.json", "r") as user_ref:
+                        users = json.loads(user_ref.read())
+                        user_ref.close()
+                    user = message["user"] # bandaid will fix later to handle files
+                    user = users[user]
+                except:
+                    user = ""
+                ts = message["ts"]
+                time = datetime.fromtimestamp(float(ts)).strftime('%Y-%m-%d %H:%M:%S')
+                load.update({time : [{"user": user},{"text":text}]})
+        except:
+            print(history)
         # Getting the file and writing to it
         file = "channels/{}.json".format(name)
         print("Updating channel {}".format(name))

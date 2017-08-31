@@ -1,0 +1,802 @@
+{
+    "2017-07-12 06:55:09": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "PST"
+        }
+    ],
+    "2017-07-10 04:00:17": [
+        {
+            "user": "jspence"
+        },
+        {
+            "text": "\"You are not allowed to read more or less than READ_SIZE bytes at once from fd\".-----&gt; Now I see."
+        }
+    ],
+    "2017-07-10 03:59:03": [
+        {
+            "user": "jspence"
+        },
+        {
+            "text": "ahh, I see regard the READ_SIZE macro.  Didn't know it might be \"adjusted\""
+        }
+    ],
+    "2017-07-04 20:23:27": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Earlier yesterday I submitted some code that may have had a case where the result would be an infinite loop of memory allocation."
+        }
+    ],
+    "2017-07-04 20:26:32": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "let me take a look at it"
+        }
+    ],
+    "2017-07-04 20:24:41": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Otherwise im lost."
+        }
+    ],
+    "2017-07-04 20:36:11": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "im using both just betty and an emacs linter for betty style."
+        }
+    ],
+    "2017-07-07 23:55:50": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "im testing a similar implementation."
+        }
+    ],
+    "2017-07-08 00:00:03": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "im still testing with static vars right now, and stuck on a few cases."
+        }
+    ],
+    "2017-07-12 00:42:13": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "<@U0VDFKAQ0> why `mattrack`? :stuck_out_tongue: also steven and I both encountered a scenario where print_tree segfaults after inserting a node to a tree, we're not sure why. can you come by to see the code when you have spare time? not pressing so far"
+        }
+    ],
+    "2017-07-12 00:44:40": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "<@U0EU02U81> lol :sweat_smile: \nIt is a name I picked for a video game a looong time ago. And euh.. that\u2019s it, there\u2019s nothing incredible :stuck_out_tongue:"
+        }
+    ],
+    "2017-07-04 20:20:18": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "My output is correct. Valgrind shows no leaks or errors."
+        }
+    ],
+    "2017-07-04 20:20:37": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Still not sure why I get this many red checks.."
+        }
+    ],
+    "2017-07-08 00:06:12": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "If we\u2019re on the same page here, then ive been stuck on this issue for a bit."
+        }
+    ],
+    "2017-07-28 01:36:43": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "Hello guys,\nFor those of you who work on the C project `Signals`, I updated the task `9. Catch with sh`\nThe signals to catch are now `SIGABRT`, `SIGIO` and `SIGTERM` (Previously SIGINT, SIGQUIT and SIGTERM)"
+        }
+    ],
+    "2017-07-20 21:24:35": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "have you all seen this map before?\n<http://www.makelinux.net/kernel_map/>"
+        }
+    ],
+    "2017-07-08 00:00:06": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Ill let you know."
+        }
+    ],
+    "2017-07-12 22:58:17": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "<@U0VDFKAQ0> <@U0ER3551R> is it possible to schedule revealings of ideal implementations for each project a few weeks after they're due? e.g. after we've had our first chance to resubmit? <@U0F2AV1PT> and I would love to see nice examples for ls and getline and so on."
+        }
+    ],
+    "2017-07-11 09:28:40": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Also, I still dont get why everyone is usine a `_` in front of all function name"
+        }
+    ],
+    "2017-07-12 06:55:06": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "alright I may be bothering you in the zombie hours"
+        }
+    ],
+    "2017-07-12 06:50:08": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "working through _getline right now and im definitely not super good but i may be on to something"
+        }
+    ],
+    "2017-07-04 20:35:53": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "I dont get any warnings or errors on it."
+        }
+    ],
+    "2017-07-12 06:55:59": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "No problem, if I can I reply on the spot I will, if not, then later !"
+        }
+    ],
+    "2017-07-12 06:49:10": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Im actually none of the above"
+        }
+    ],
+    "2017-07-10 04:10:59": [
+        {
+            "user": "jspence"
+        },
+        {
+            "text": "did you guys figure it out?"
+        }
+    ],
+    "2017-07-20 21:29:26": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "Oh wow :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-10 03:57:23": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "<@U0F8XRAMV> by only reading one char at a time, you are avoiding the case damian and I are discussing: having a buffer for reading which is larger than 1 byte and encountering scenarios where you read more than you need to return one line. On the other hand, with your strategy you will be doing a read syscall for every char of the file that you read, which is very many syscalls. Julien's implied to me heavy-handedly that this is suboptimal :sweat_smile:\n\nAnyway, considering that READ_SIZE is a macro which can be adjusted to any value, our _getlines are probably supposed to work with any READ_SIZE we set it to. If your _getline is designed to only work with byte-by-byte reading, it's probably failing cases where the READ_SIZE is set to a larger size. Damian encountered this problem too and had to adjust his _getline the same way."
+        }
+    ],
+    "2017-07-10 14:59:36": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "<@U0VDFKAQ0>  ahh okay that makes sense :) thanks "
+        }
+    ],
+    "2017-07-04 20:31:11": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "all of them?"
+        }
+    ],
+    "2017-07-12 04:58:00": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "<@U0JDPBFEU> : this is the project if you wanted to take a look at it yourself. <https://intranet.hbtn.io/projects/322>"
+        }
+    ],
+    "2017-07-04 20:32:10": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": ":expressionless:"
+        }
+    ],
+    "2017-07-12 06:52:27": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Actually I woke up at 6am :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-11 09:28:23": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Also, the gnu libc read one char at a time for getline, letting the buffering handling to the system."
+        }
+    ],
+    "2017-07-04 20:33:46": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "the odd thing is I was 1 red check away from completion on task 0"
+        }
+    ],
+    "2017-07-08 00:00:22": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "kk"
+        }
+    ],
+    "2017-07-17 21:15:24": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "a link I'm finding useful for understanding the proc project:\n<http://www.makelinux.net/ldd3/chp-15-sect-1>"
+        }
+    ],
+    "2017-07-12 06:50:41": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "How long will you be up?"
+        }
+    ],
+    "2017-07-04 20:18:59": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "BETTY Style and Docs both pass with zero warnings or errors."
+        }
+    ],
+    "2017-07-11 09:31:55": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "For each system, read, write, etc. are buffered for block devices ( as far as I know )."
+        }
+    ],
+    "2017-07-08 00:04:13": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "correct me if im wrong but you\u2019re saying after your truncated line is passed, your next line is incorrect?"
+        }
+    ],
+    "2017-07-12 06:47:16": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Thanks !"
+        }
+    ],
+    "2017-07-04 20:29:34": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "your code should yield more green checks than my picture above."
+        }
+    ],
+    "2017-07-04 20:24:07": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Since I cannot Ctrl-C when checker runs that case, it might be possible there was an issue."
+        }
+    ],
+    "2017-07-04 20:31:22": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "or the three I have shown."
+        }
+    ],
+    "2017-07-12 21:30:55": [
+        {
+            "user": "daniel"
+        },
+        {
+            "text": "<@U0GUG32F9|daniel> has joined the channel"
+        }
+    ],
+    "2017-08-08 18:13:31": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "Hello guys :slightly_smiling_face:\nHope you\u2019re doing well,\nFor low-level full-time, did anyone start to work on the shell yet? If so, could you tell me if you\u2019re working in team, or alone? Thanks ! :slightly_smiling_face:"
+        }
+    ],
+    "2017-08-12 19:11:50": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "I haven\u2019t made any plans yet to work with someone else yet. My schedule has been random lately."
+        }
+    ],
+    "2017-07-11 14:37:17": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "FYI there are two different functions: the first one you don't have to handle multiple fd. The second one you have. So you will need more than one buffer"
+        }
+    ],
+    "2017-07-04 20:34:13": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "check your betty style for line 41 - 44 on _getline.c"
+        }
+    ],
+    "2017-07-10 01:42:07": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "<@U0EQZP8BY|sgrcia> uploaded a file: <https://holberton-students.slack.com/files/sgrcia/F66T8Q31V/screen_shot_2017-07-09_at_6.30.28_pm.png|Screen Shot 2017-07-09 at 6.30.28 PM.png> and commented: Can anyone explain why 54 have one leaf and not zero in this example? From  #12 in binary trees (<https://intranet.hbtn.io/projects/356>)"
+        }
+    ],
+    "2017-07-04 16:31:26": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "Wdym? Do you have examples or more specifics? /ping <@U0VDFKAQ0> "
+        }
+    ],
+    "2017-07-12 06:49:55": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Well you ask me question from time to time :slightly_smiling_face: So you are OK :stuck_out_tongue:"
+        }
+    ],
+    "2017-07-07 23:55:02": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "hey, I'm on task 1 for get line and am thinking that I need to somehow persist the data last read in the buffer for each file descriptor that getline is called with, until it's called with fd == -1, in order to manage the sample output. which means using a data structure like a linked list or a hash table. has anyone thought of a different solution though? <@U0F2AV1PT> <@U0FEBCR54> <@U0F8XRAMV>"
+        }
+    ],
+    "2017-07-10 22:29:49": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "<@U0F8XRAMV> in short no I did not figure it out completely. Im still missing cases where there is no new line as well as some READ_SIZE value yield different results though the majority are ok. Ill be updating the next build for second chance scores."
+        }
+    ],
+    "2017-07-12 06:54:55": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "lol"
+        }
+    ],
+    "2017-07-04 09:36:42": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "I think <https://intranet.hbtn.io/projects/322> checker is broken."
+        }
+    ],
+    "2017-07-10 04:32:37": [
+        {
+            "user": ""
+        },
+        {
+            "text": "<@U0VDFKAQ0|gautie_a> commented on <@U0EQZP8BY|sgrcia>\u2019s file <https://holberton-students.slack.com/files/sgrcia/F66T8Q31V/screen_shot_2017-07-09_at_6.30.28_pm.png|Screen Shot 2017-07-09 at 6.30.28 PM.png>: <@U0EQZP8BY> : Because `54` itself is a leaf :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-04 20:31:38": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "all of them"
+        }
+    ],
+    "2017-07-11 09:35:51": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "You can also use some flags to forbid caching to open like O_DIRECT but I'm not even sure if it will be enforced for sure."
+        }
+    ],
+    "2017-07-08 00:02:34": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "I also am using static vars right now, but the reason why I think I need to use a static data struct in addition is because my _getline will read from the wrong spot for 2nd round of line-getting for the poem. (it will read from after my last read, and skip what I've already read from the poem in previous calls but did not print, i.e. what was left in my buffer after I did the last get_line)."
+        }
+    ],
+    "2017-07-12 06:46:33": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "<!channel> \nHey up people ! I'm a bit lonely, as no one is asking me any question or ask for code review. That can mean many things : \n1 - You don't know me. Hello, I'm Olivier, a mentor for Holberton. I'm at your service ! Question, code review, mental boost, I'm doing it all !\n2 - You do not want to disturb me. I will only reply if I have time to do so, so asking me a question or code review is totally fine !\n3 - You think I'm scary or not very nice. I'm not, but I'm very direct.\n4 - You are all super good, and don't need any help.\n5 - You are not actually working. \nI peek the first and second option. If it is fourth, then just tell me, I can hit you with something that will challenge your skills ! Fifth is out of question, coding is to fun, and also Julien can be scarry."
+        }
+    ],
+    "2017-07-12 05:35:24": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Yes. But for learning purpose, it is easier for you to make a buffered getline than a low level kernel driver :)"
+        }
+    ],
+    "2017-07-04 20:18:47": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "README.md has text."
+        }
+    ],
+    "2017-07-04 20:25:54": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "If anyone can spot the issue in my code please let me know."
+        }
+    ],
+    "2017-07-12 22:59:10": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Im damian and I approve of this message."
+        }
+    ],
+    "2017-07-04 20:20:05": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Im only using accepted functions ."
+        }
+    ],
+    "2017-07-04 20:32:04": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "then its my code somehow. perhaps?"
+        }
+    ],
+    "2017-07-04 20:26:24": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "yes."
+        }
+    ],
+    "2017-07-10 03:39:38": [
+        {
+            "user": "jspence"
+        },
+        {
+            "text": "<@U0EU02U81> Not sure I understand what your question is, but I'm reading only one character at a time (READ_SIZE = 1) and placing the contents of each read (the &amp;buf into the malloc-ed return line of 256 memory space.  If any line exceeds 256 chars, I re-malloc a new line with one more memory space, repeatedly until I hit the newline.   There must be some edge cases or something because I'm still getting some errors on the code check."
+        }
+    ],
+    "2017-07-04 20:30:44": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "it does get the style checks green"
+        }
+    ],
+    "2017-07-12 00:38:57": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "so, you mean that the canonical getline only calls read with a buffer of 1 byte? and that calling read for every char isn't so problematic?"
+        }
+    ],
+    "2017-07-08 00:31:44": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "Yes, for sure. After you do a read, the file pointer is moved to the char after the last read byte. So if you read more than a line and truncate what you've read to return that line, what gets truncated is lost unless you store it somewhere and access it in the future.\n\nI've been storing the truncated data and accessing it on subsequent _getline calls, but when _getline is called with a new file descriptor, I overwrite that data because I don't want return data from the previous file. But somehow I need to persist the data (or at least where to read) and discriminate between different fd's instead, because the sample _getline is able to resume line-getting from where it left off between calls with different fd's."
+        }
+    ],
+    "2017-07-10 04:03:04": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "yep! once you try to handle a READ_SIZE that is more than 1 byte, it introduces some more trickiness to the problem too (hence the discussion damian and I were having above). good luck!"
+        }
+    ],
+    "2017-08-08 18:51:00": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "<!here|@here> :point_up:"
+        }
+    ],
+    "2017-07-12 00:39:47": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "jspence: I did most of it, but missed a few checks"
+        }
+    ],
+    "2017-07-04 20:26:12": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "is this the checker for #0?"
+        }
+    ],
+    "2017-07-11 09:30:27": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "To be clear, from the C standard : \n```\n7.1.3 Reserved identifiers\n1 Each header declares or defines all identifiers listed in its associated subclause, and\noptionally declares or defines identifiers listed in its associated future library directions\nsubclause and identifiers which are always reserved either for any use or for use as file\nscope identifiers.\n\u2014 All identifiers that begin with an underscore and either an uppercase letter or another\nunderscore are always reserved for any use.\n\u2014 All identifiers that begin with an underscore are always reserved for use as identifiers\nwith file scope in both the ordinary and tag name spaces.\n\u2014 Each macro name in any of the following subclauses (including the future library\ndirections) is reserved for use as specified if any of its associated headers is included;\nunless explicitly stated otherwise (see 7.1.4).\n\u2014 All identifiers with external linkage in any of the following subclauses (including the\nfuture library directions) and errno are always reserved for use as identifiers with\nexternal linkage.184)\n\u2014 Each identifier with file scope listed in any of the following subclauses (including the\nfuture library directions) is reserved for use as a macro name and as an identifier with\nfile scope in the same name space if any of its associated headers is included.\n2 No other identifiers are reserved. If the program declares or defines an identifier in a\ncontext in which it is reserved (other than as allowed by 7.1.4), or defines a reserved\nidentifier as a macro name, the behavior is undefined.\n3 If the program removes (with #undef) any macro definition of an identifier in the first\ngroup listed above, the behavior is undefined.\n```"
+        }
+    ],
+    "2017-07-07 23:57:16": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "I agree with the static var part, but are you guys getting by without needing to store the data in the buffer every time _getline is called with a new fd?"
+        }
+    ],
+    "2017-07-04 20:35:05": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "hmm"
+        }
+    ],
+    "2017-07-12 21:33:03": [
+        {
+            "user": "rona"
+        },
+        {
+            "text": "<@U0JDPBFEU> it's #2 and thinking that maybe I should figure things out myself before asking others.. but I have a question log of unanswered q's, so you won't have to feel lonely for long! :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-11 14:35:45": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "It's our way to say: this is a function that does exist in the libc."
+        }
+    ],
+    "2017-07-12 22:00:29": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "yoo welcome dan"
+        }
+    ],
+    "2017-07-04 20:18:39": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "All my files were testing on 14.04LTS (tested on my server as well due to issues with LS project)"
+        }
+    ],
+    "2017-07-04 20:19:34": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "Header files are include guarded. and I dont have more than 6 functions in _getline.c"
+        }
+    ],
+    "2017-07-04 20:25:55": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "<https://github.com/DamianAli/holbertonschool-linux_programming/tree/master/0x02-getline>"
+        }
+    ],
+    "2017-07-04 20:31:51": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "and also i get 11 green"
+        }
+    ],
+    "2017-07-04 20:21:25": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "<@U0F2AV1PT|damianali> uploaded a file: <https://holberton-students.slack.com/files/damianali/F637924RF/screen_shot_2017-07-04_at_1.13.12_pm.png|Screen Shot 2017-07-04 at 1.13.12 PM.png>"
+        }
+    ],
+    "2017-07-08 00:07:27": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "immediately after ive turned the newline into a null byte, the next read call completely drops the next line equalling `READ_SIZE` from existence."
+        }
+    ],
+    "2017-07-20 22:09:28": [
+        {
+            "user": "daniel"
+        },
+        {
+            "text": "I have. I remember it looked a lot more confusing! :simple_smile:"
+        }
+    ],
+    "2017-07-07 20:51:30": [
+        {
+            "user": "jspence"
+        },
+        {
+            "text": "<@U0F8XRAMV|jspence> uploaded a file: <https://holberton-students.slack.com/files/jspence/F65PAPR9T/screen_shot_2017-07-07_at_4.47.26_pm.png|Screen Shot 2017-07-07 at 4.47.26 PM.png> and commented: <https://github.com/johndspence/holbertonschool-linux_programming/blob/master/0x02-getline/_getline.c>\n\nDoes anyone have any thoughts on this? Output with provided main.c is correct. No memory leaks."
+        }
+    ],
+    "2017-07-17 21:23:12": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "I can give my implementation of getline, but I would not call it ideal."
+        }
+    ],
+    "2017-08-03 21:03:10": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "<!here|@here>: Hello guys :slightly_smiling_face:\nJust to let you know that you will have one more week to work on the `signals` project"
+        }
+    ],
+    "2017-07-11 18:16:11": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Well, not a good idea, as it means to say it is part of the libc :)"
+        }
+    ],
+    "2017-07-05 03:02:05": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "<@U0ER3551R>: Fixed :+1::skin-tone-3:"
+        }
+    ],
+    "2017-07-07 21:02:10": [
+        {
+            "user": ""
+        },
+        {
+            "text": "<@U0F8XRAMV|jspence> commented on <@U0F8XRAMV|jspence>\u2019s file <https://holberton-students.slack.com/files/jspence/F65PAPR9T/screen_shot_2017-07-07_at_4.47.26_pm.png|Screen Shot 2017-07-07 at 4.47.26 PM.png>: Wait...I think I found it."
+        }
+    ],
+    "2017-07-11 09:27:09": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "I guess the only right way is to have a static that store the FD the buffer relate to. If the FD is different, then reset buffer. But it also means that you cannot use your getline with  two different file."
+        }
+    ],
+    "2017-07-12 06:51:04": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "I just woke up, it is 9am where I am, so whenever :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-07 23:55:43": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "sravanthi went with static vars"
+        }
+    ],
+    "2017-07-04 20:33:52": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "and somehow Im back to this."
+        }
+    ],
+    "2017-07-04 20:36:25": [
+        {
+            "user": "damianali"
+        },
+        {
+            "text": "are you getting different?"
+        }
+    ]
+}

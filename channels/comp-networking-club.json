@@ -1,0 +1,370 @@
+{
+    "2017-07-28 06:04:55": [
+        {
+            "user": "concati"
+        },
+        {
+            "text": "I got this one also!"
+        }
+    ],
+    "2017-07-02 05:03:56": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Until we get our hands on some hardware:\n<http://www.brianlinkletter.com/how-to-use-virtualbox-to-emulate-a-network/>"
+        }
+    ],
+    "2017-07-03 19:36:46": [
+        {
+            "user": "concati"
+        },
+        {
+            "text": "sure, if you want."
+        }
+    ],
+    "2017-06-29 15:50:09": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> pinned a message to this channel."
+        }
+    ],
+    "2017-08-10 21:05:19": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> pinned a message to this channel."
+        }
+    ],
+    "2017-06-28 15:35:30": [
+        {
+            "user": "agha"
+        },
+        {
+            "text": "Heylo"
+        }
+    ],
+    "2017-07-02 05:05:21": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<@U3JFW1Y9F|john.c> has joined the channel"
+        }
+    ],
+    "2017-06-28 00:30:59": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "Welcome to the computer networking club, this is where we do this for fun and share our knowledge and resources (maybe weekly meetings, maybe not)"
+        }
+    ],
+    "2017-06-28 17:35:12": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> pinned a message to this channel."
+        }
+    ],
+    "2017-06-28 15:36:10": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "<@U35J0JMEE> oh there you are. "
+        }
+    ],
+    "2017-06-28 23:46:57": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "<https://github.com/dbconfession78/USHistoryHunter>"
+        }
+    ],
+    "2017-06-28 15:35:12": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Thanks Lisa. Maybe we should invite Ian and Tim as well. And maybe Agha. "
+        }
+    ],
+    "2017-06-28 00:29:42": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> has joined the channel"
+        }
+    ],
+    "2017-06-28 00:51:39": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<https://www.youtube.com/watch?v=6LGw31TsP6E>"
+        }
+    ],
+    "2017-06-28 17:35:19": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> pinned a message to this channel."
+        }
+    ],
+    "2017-07-15 03:43:57": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Oh awesome. I can use his on my virtual network. Thanks Ian. "
+        }
+    ],
+    "2017-07-02 05:31:25": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "stueygk: lol I recite this daily now"
+        }
+    ],
+    "2017-06-28 17:36:24": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "stueygk: I'll check it out once I'm done with Makefiles today :cry:"
+        }
+    ],
+    "2017-07-02 05:34:41": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "<@U2205GWFM|tim.britton> has joined the channel"
+        }
+    ],
+    "2017-08-16 17:25:47": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<!here|@here> Fresh Zucchini bread still moist from the SF Civic Center Market in kitchen, help yourself while it\u2019s still there."
+        }
+    ],
+    "2017-07-26 01:56:43": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Thanks <@U367DBQDD> "
+        }
+    ],
+    "2017-08-16 17:27:58": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "just for the comp-networking-club? ohh how elitist of you <@U3JFW1Y9F> lol"
+        }
+    ],
+    "2017-07-02 05:04:44": [
+        {
+            "user": "sebastien.tricaud"
+        },
+        {
+            "text": "<@U3XNW1Q6L|sebastien.tricaud> has joined the channel"
+        }
+    ],
+    "2017-06-28 15:48:53": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "I have an idea we can all work on. Right now I have a half-finished iOS app called \"U.S. History Hunter\" (it's on my repo). \nI've taken a spreadsheet from the official Registered U.S. Landmarks site and parsed all the information into JSON. Then I used a tool that returns all coordinates of those landmarks and linked them up with X-Code's map-view API. What we can do is put the information on a server instead of having it local in the compiled program. And then create an automation to update the info on the server when're there a change. That way whenever it updates we can have it push the information to the mobile app as well as a web application. \nThoughts?"
+        }
+    ],
+    "2017-07-28 17:41:00": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "charity  + knowledge, can't get better than that!"
+        }
+    ],
+    "2017-07-01 17:35:10": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Thanks <@U35J0JMEE> I\u2019m ordering mine later tonight."
+        }
+    ],
+    "2017-06-29 15:49:57": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<https://www.youtube.com/watch?v=1AUJctaLmKE&amp;index=4&amp;list=PL6gx4Cwl9DGBpuvPW0aHa7mKdn_k9SPKO>"
+        }
+    ],
+    "2017-07-18 06:31:30": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<https://github.com/gradiuscypher/infosec_getting_started>"
+        }
+    ],
+    "2017-06-28 00:29:43": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> set the channel purpose: Computer networking club, weekly meetings tbd"
+        }
+    ],
+    "2017-07-20 17:11:29": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<https://www.humblebundle.com/books/cybersecurity-wiley>"
+        }
+    ],
+    "2017-07-02 05:06:16": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "<@U367Z1MC7|stueygk> pinned a message to this channel."
+        }
+    ],
+    "2017-07-03 02:55:10": [
+        {
+            "user": "concati"
+        },
+        {
+            "text": "You don't really need any hardware. Do it all virtual! so much easier"
+        }
+    ],
+    "2017-06-28 17:41:53": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "stueygk: Bummer, I really like learning algorithms too"
+        }
+    ],
+    "2017-06-28 15:35:56": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Weekly meetings are a great idea. Of course if projects permit. "
+        }
+    ],
+    "2017-06-28 23:46:31": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "leme check"
+        }
+    ],
+    "2017-07-01 01:41:33": [
+        {
+            "user": "agha"
+        },
+        {
+            "text": "Hey guys, we should all read this book if we get a chance. The US version is 170+ so I I got this global edition: <http://www.ebay.com/itm/GLOBAL-EDITION-Computer-Networking-A-Top-Down-Approach-7E-by-Kurose-Ross/332103513125?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2057872.m2749.l2649>"
+        }
+    ],
+    "2017-06-28 23:46:18": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "hey <@U367Z1MC7>, I couldn't find the repo.  link?"
+        }
+    ],
+    "2017-06-28 15:43:12": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Tim Britton: \nstudying algorithms isn't gonna help you get an SRE job. \nyou should do some, but mainly just simple stuff. strings (palindromes, anagrams, etc), basic data structure stuff but nothing fancier than linked lists tbh\nbut you need to know the OSI levels, the whole 'what happens when you type google in a browser' you should be able to recite with your eyes closed\nyou need to know tcp vs udp, what dhcp is, how traceroute/ping works, how SSH/TLS works\n\nsuggestion: start with google in a browser. use tcpdump and wireshark to look at all the actual traffic down to the packet\nAnd then write scripts with Puppet or Chef or whatever to automate them\nAnd my biggest possible advice is to start a project now. Find something, anything you care about, that you can run on multiple servers with a database between them"
+        }
+    ],
+    "2017-07-02 04:59:23": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "<@U1XTEUJGL>  Ian's acronym for remembering the OSI model:\nPlease (physical)\ndo (data link)\nnot (network)\nthrow (transport)\nstuffed (session)\npeppers (presentation)\naway (application)\n"
+        }
+    ],
+    "2017-07-02 05:05:29": [
+        {
+            "user": "concati"
+        },
+        {
+            "text": "<@U1XTEUJGL|concati> has joined the channel"
+        }
+    ],
+    "2017-07-02 01:35:24": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "<@U3JEPHYRW|bobstermyang> has joined the channel"
+        }
+    ],
+    "2017-06-28 15:37:20": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Tim recommended this: <https://jimshaver.net/2015/02/11/decrypting-tls-browser-traffic-with-wireshark-the-easy-way/>"
+        }
+    ],
+    "2017-07-02 06:28:26": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "well, it won't HURT i should say, but out of everything i studied it was what i was asked the very least really"
+        }
+    ],
+    "2017-07-03 16:08:51": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "Yup. That's what I'm doing and it's so much fun. But <@U1XTEUJGL> don't you think eventually once we understand the ins and the outs virtually we should get our hands dirty with the real deal?"
+        }
+    ],
+    "2017-07-15 01:34:34": [
+        {
+            "user": "concati"
+        },
+        {
+            "text": "<@U367Z1MC7> OH, This video is how I learned to set it up: <https://www.youtube.com/watch?v=7t_5ikxpyGk&amp;list=PL1rFvQRVWVVYLeYVfiJJbZ8mTAv8wrYl4>"
+        }
+    ],
+    "2017-07-02 05:35:02": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> pinned a message to this channel."
+        }
+    ]
+}

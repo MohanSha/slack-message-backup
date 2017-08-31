@@ -1,0 +1,778 @@
+{
+    "2017-07-31 23:51:49": [
+        {
+            "user": "tommy"
+        },
+        {
+            "text": "<@U51V26DGX|tommy> has joined the channel"
+        }
+    ],
+    "2017-08-01 00:06:28": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "<@U4DTCP2N5|birnbera> has joined the channel"
+        }
+    ],
+    "2017-08-21 23:01:36": [
+        {
+            "user": ""
+        },
+        {
+            "text": "<@U52RWU0AG|tope_a> commented on <@U133P4TPS|guillaume.salva>\u2019s file <https://holberton-students.slack.com/files/guillaume.salva/F6RPDM4CV/image_uploaded_from_ios.jpg|New friends!>: Just in time!"
+        }
+    ],
+    "2017-08-19 22:51:10": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "^^ Above code uses `primary_key=True` for both amenities_id and place_id\u2026 perhaps you don\u2019t have to redo the task, seems like original instructions function good.  I DM\u2019d with same code but better format."
+        }
+    ],
+    "2017-08-11 23:30:39": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U2HAF11L7> thanks so much!  The link helped a lot :heart:"
+        }
+    ],
+    "2017-08-19 21:04:45": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "if you have duplicate error it means you have set PrimaryKey to `place_id` or/and `amenity_id` in the class `PlaceAmenity`. To fix that you should:\n- destroy and create the database\n- remove `primary_key=True` of your `PlaceAmenity` class\n- `PlaceAmenity` should not inherits from `BaseModel` -&gt; you don\u2019t need to have `id`, `created_at` and `updated_at` \n- add a new column `id` in `PlaceAmenity` class: \n  - Integer\n  - `primary_key=True`\n  - `nullable=False`\n  - `autoincrement=True`\n\nAnd that\u2019s it.\n\nWhy?\n\nJust remember:\n`place_amenity` is a table to join `Place` and `Amenity` with a relation Many-To-Many. So first: you can\u2019t have PrimaryKey on `place_id` and `amenity_id` because a PrimaryKey has to be unique and with a relation Many-To-Many, it\u2019s not possible. Otherwise it means you can link only one Amenity to one Place. \nTo create this relation Many-To-Many with SQLAlchemy, you have 2 solutions:\n- create a class\n- create a Table to join - association table -&gt; best solution =&gt; <http://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html#many-to-many>\n\nThe problem with the class is: SQLAlchemy needs a primary key for each class mapped to a table. It\u2019s for that I added previously:\n- add a new column `id` in `PlaceAmenity` class: \n  - Integer\n  - `primary_key=True`\n  - `nullable=False`\n  - `autoincrement=True`\n\nI will redo this task Monday to clarify this point"
+        }
+    ],
+    "2017-07-03 03:36:54": [
+        {
+            "user": "jwang823"
+        },
+        {
+            "text": "I used z-index :thumbsup::skin-tone-3: "
+        }
+    ],
+    "2017-07-02 16:03:55": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<@U3JEPHYRW> I\u2019m gonna use your z-index fix for now, unless ya\u2019ll find a better solution"
+        }
+    ],
+    "2017-08-01 01:00:39": [
+        {
+            "user": "johnpcottrell"
+        },
+        {
+            "text": "<@U4YEF6P0Q|johnpcottrell> has joined the channel"
+        }
+    ],
+    "2017-07-03 03:39:37": [
+        {
+            "user": "jwang823"
+        },
+        {
+            "text": "LPT: you think there is logic for CSS but there isn't. If it works, it doesnt matter how jank it is :joy:"
+        }
+    ],
+    "2017-08-28 20:08:28": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "When you're creating a private instance variable in a python class using the decorator syntax (i.e. `@property` and `@x.setter`) if you need to use those values in a public method is it better to use the getter method (e.g. `self.x`) or use the private value directly (e.g. `self.__x`)? My guess is that the getter and setter are mainly for use as an interface, so you should use the private variable directly within the method, but I could also see there being an advantage to having a single approach to getting and setting that value (as in the zen of python)."
+        }
+    ],
+    "2017-08-19 22:50:06": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "yes this shows the table attributes, both attributes set to primary_key it appears, perhaps this is what is meant as it functions and only raises an exception if the same place has duplicate amenities\u2026  removing the `primary_key` constraint from both COLS in `place_amenity` allows for the same place to have duplicate amenities, which is probably not what is desired."
+        }
+    ],
+    "2017-08-20 00:34:22": [
+        {
+            "user": "anne.c"
+        },
+        {
+            "text": ":trollface: \nIRL I would not like to see a tag wifi repeated 3 times for a place. Either write wifi: 3 or only wifi once.\n`PlaceAmenity` could be a class if instead of allowing the tuple (`amenity_id`, `place_id`) to not be unique we would let the user enter how many of an amenity he/she has.\nOtherwise it really should be a table and John\u2019s exception should be accepted.\nThe problem with the class is you can instantiate an object independently from just adding an amenity to a place and if it is not a feature you need don\u2019t do it."
+        }
+    ],
+    "2017-08-11 06:37:00": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U2205GWFM> good point. thanks!"
+        }
+    ],
+    "2017-07-02 15:00:30": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Havent gotten to that part yet but im not sure if the dropdown is suppose to be transparent"
+        }
+    ],
+    "2017-07-03 22:37:24": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<@U133P4TPS>, for task # 9 `web_static` from `AirBnB_Clone` the instructions state, `icons on the left: Pet friendly, TV, Wifi, etc... feel free to add more`  \u2026can we import icons from a library such as font awesome (<http://fontawesome.io/icon/paw/>)?  The html would be: `&lt;i class=\"fa fa-paw\" aria-hidden=\"true\"&gt;&lt;/i&gt;`?  Or do you want us to use .jpg/ .png files and keep styling with css?"
+        }
+    ],
+    "2017-08-28 20:24:39": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "Definitely makes sense for the setter, but what about getting the value? Is the overhead of calling the getter negligable?"
+        }
+    ],
+    "2017-08-23 01:19:08": [
+        {
+            "user": ""
+        },
+        {
+            "text": "<@U38JLP69K|egsy> commented on <@U133P4TPS|guillaume.salva>\u2019s file <https://holberton-students.slack.com/files/guillaume.salva/F6S9YEK5G/image_uploaded_from_ios.jpg|It's not a goat, it's real>: it's not a goat but is it _*the*_ GOAT?!"
+        }
+    ],
+    "2017-07-07 19:26:38": [
+        {
+            "user": "anne.c"
+        },
+        {
+            "text": "good luck with that :stuck_out_tongue_closed_eyes:. Not sure how the book could help you for the battle, but it does a good job of teaching java."
+        }
+    ],
+    "2017-07-31 23:20:55": [
+        {
+            "user": "tope_a"
+        },
+        {
+            "text": "<@U52RWU0AG|tope_a> has joined the channel"
+        }
+    ],
+    "2017-07-02 16:01:26": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Ahhhh"
+        }
+    ],
+    "2017-08-11 06:34:33": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "might wanna consider if it's not a dict, or an empty dict, and what will happen "
+        }
+    ],
+    "2017-07-31 23:17:01": [
+        {
+            "user": "nooplion"
+        },
+        {
+            "text": "<@U4RMLNCBH|nooplion> has joined the channel"
+        }
+    ],
+    "2017-07-07 19:21:39": [
+        {
+            "user": "larry2"
+        },
+        {
+            "text": "I might buy a copy.  Somehow, I've become the spokesperson for Java at the \"battle of the programming languages\" next week. lol."
+        }
+    ],
+    "2017-08-21 23:10:58": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "```try: for i in range(x): print(list[i]) except IndexError: pass```"
+        }
+    ],
+    "2017-07-02 16:01:27": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Makes sense"
+        }
+    ],
+    "2017-07-02 16:00:05": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "No, I haven\u2019t used z-index, because there has been no specifications for this situation\u2026. but if I did, that would be an easy fix to make the dropdown appear \u201chigher\u201d on z-index than the places, thus it would be visible."
+        }
+    ],
+    "2017-07-02 15:59:09": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Mmmm interesting. So you messed with the z-index value?"
+        }
+    ],
+    "2017-08-24 23:11:01": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "Perfect, thanks"
+        }
+    ],
+    "2017-07-03 22:50:01": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "john.c: I will be super happy with both"
+        }
+    ],
+    "2017-07-02 15:44:44": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "bobstermyang: Thanks, the dropdown (non-transparent background), is actually behind (z-axis) the `.places` section.  There is no specification for `.places` section background, and so, that is the transparency you see.  I made the `.places` background white at first, but then the dropdown is not visible at all, so I made it transparent, so the dropdown is visible."
+        }
+    ],
+    "2017-08-21 23:25:57": [
+        {
+            "user": "jwang823"
+        },
+        {
+            "text": "uuuh... sorry :upside_down_face: I haven't looked at the source code for this part xD But I'd hazard a guess that checking within the loop would be more inefficient (like you said, new handler with each loop)"
+        }
+    ],
+    "2017-07-02 14:56:48": [
+        {
+            "user": "naomi"
+        },
+        {
+            "text": "I haven't but thanks for posting regardless- gives me an idea of what's to come :sunglasses:"
+        }
+    ],
+    "2017-07-31 23:17:20": [
+        {
+            "user": "jeffrey.kanemitsu"
+        },
+        {
+            "text": "<@U562LRV1N|jeffrey.kanemitsu> has joined the channel"
+        }
+    ],
+    "2017-08-21 23:42:50": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "Ok, I tested it and it is marginally faster outside the loop, but not that different. For 1e7 iterations it took about 10% longer to put the `try: except:` inside the loop"
+        }
+    ],
+    "2017-08-11 16:27:14": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "<https://stackoverflow.com/questions/7152441/python-if-not-val-vs-if-val-is-none>"
+        }
+    ],
+    "2017-08-24 22:44:22": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "What happens when you have a try and except block and there is an exception caught?"
+        }
+    ],
+    "2017-08-15 23:33:19": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "the key value should be Class.id:object"
+        }
+    ],
+    "2017-08-19 22:37:35": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "You should look at `show create table place_amenity`"
+        }
+    ],
+    "2017-08-24 21:09:00": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "Hey guys,\n\nI just updated the last task `10. CPython #2: PyFloatObject` of the project `0x05. Python - Exceptions` -&gt; There was an issue with libC\u2019s `printf` and Python\u2019s `print` buffers that caused the output to be disordered.\nFor those who are working on this project, I added some tip in the task requirement to avoid any issue :+1::skin-tone-3:"
+        }
+    ],
+    "2017-08-23 01:57:07": [
+        {
+            "user": ""
+        },
+        {
+            "text": "<@U3XBA3RAS|kjowong> commented on <@U133P4TPS|guillaume.salva>\u2019s file <https://holberton-students.slack.com/files/guillaume.salva/F6S9YEK5G/image_uploaded_from_ios.jpg|It's not a goat, it's real>: GOAT"
+        }
+    ],
+    "2017-08-11 06:26:41": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<https://github.com/tanyastropheus/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/10-best_score.py>"
+        }
+    ],
+    "2017-07-02 14:59:57": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Transparency "
+        }
+    ],
+    "2017-07-02 14:59:52": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Hey john, it looks like your dropdown has transparent "
+        }
+    ],
+    "2017-07-03 03:40:30": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<http://gph.is/1J7zuP1>"
+        }
+    ],
+    "2017-08-21 23:13:20": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "It depends:\n- do you want to \u201cstop\u201d everything when something goes wrong during a loop =&gt; `try/except` around your loop\n- do you want to finish your loop and  just skip  when something goes wrong with one iteration =&gt; `try/except` inside your loop"
+        }
+    ],
+    "2017-08-19 21:33:17": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<@U133P4TPS>\u2026 One other thing\u2026 `a2` is added twice, and therefore variable `a3`, `Eth` is never added to neither House 1 nor House 2, yet it is in the expected output:\n\n*CODE:*\n```\na3 = Amenity(name=\"Eth\")\na3.save()\np1.amenities.append(a1)\np1.amenities.append(a2)\n\np2.amenities.append(a1)\np2.amenities.append(a2)\np2.amenities.append(a2)\n```\n*EXPECTED:*\n```\n[Expected] \nname\tname \nCable\tHouse 2 \nCable\tHouse 1 \nEth\tHouse 2 \nWifi\tHouse 2 \nWifi\tHouse 1\n```"
+        }
+    ],
+    "2017-08-15 23:32:45": [
+        {
+            "user": "agha"
+        },
+        {
+            "text": "I\u2019m just starting to work on DBStorage, what do you mean it should be the same as FileStorage?"
+        }
+    ],
+    "2017-07-03 03:38:00": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "Awesome!! Thanks!"
+        }
+    ],
+    "2017-08-23 01:09:23": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "<@U133P4TPS|guillaume.salva> uploaded a file: <https://holberton-students.slack.com/files/guillaume.salva/F6S9YEK5G/image_uploaded_from_ios.jpg|It's not a goat, it's real>"
+        }
+    ],
+    "2017-08-01 17:13:46": [
+        {
+            "user": "alexa_inga"
+        },
+        {
+            "text": "<@U570R09GB|alexa_inga> has joined the channel"
+        }
+    ],
+    "2017-07-02 16:01:31": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "No documentation "
+        }
+    ],
+    "2017-08-19 20:49:00": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "For AirBnB_v2 task #5, I believe I am seeing 2 errors in this checker test case: <https://holbertonintranet.s3.amazonaws.com/files/correction_system/289/1610/main_39.py>\nThe code that I don\u2019t understand or that perhaps has an error occurs in this section (the last lines of the code):\n```\np1.amenities.append(a1)\np1.amenities.append(a2)\np2.amenities.append(a1)\np2.amenities.append(a2)\np2.amenities.append(a2)\nstorage.save()\n```\nSince `p2.amenities.append(a2)` is a duplicate call, if `p2` is attempted to be added to the `self.__session`, this raises an Exception `IntegrityError: 1062, Duplicate entry` because both COLS place and amenity are primary keys in the place_amenity table.  So, these changes cannot be merged into the session because they conflict with the required guidelines for the place_amenity table to not have duplicate primary keys.\n\nI  have been trying to fix this, but the only way I see to fix it is to override the `append()` function, but I cannot see a way to do this.  If I am totally off (<@U133P4TPS>), I\u2019d appreciate some tips on what direction to follow.  Otherwise, perhaps change the tests in the checker."
+        }
+    ],
+    "2017-08-01 00:31:59": [
+        {
+            "user": "gwenevere05"
+        },
+        {
+            "text": "<@U3JQNJE21|gwenevere05> has joined the channel"
+        }
+    ],
+    "2017-08-28 20:26:07": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "yes and no - depending of the case. I usually don\u2019t put too much logic in the getter, so I prefer to access directly to the private attribute"
+        }
+    ],
+    "2017-07-03 03:35:09": [
+        {
+            "user": "jwang823"
+        },
+        {
+            "text": "in case you guys didnt get an answer, when you hover over location/amenities the dropdowns should be separate"
+        }
+    ],
+    "2017-08-21 21:01:59": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "<@U133P4TPS|guillaume.salva> uploaded a file: <https://holberton-students.slack.com/files/guillaume.salva/F6RPDM4CV/image_uploaded_from_ios.jpg|New friends!>"
+        }
+    ],
+    "2017-07-12 21:56:30": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Updated: `Write a script that creates a table called first_table in the current database in your MySQL server.`"
+        }
+    ],
+    "2017-08-22 00:08:33": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Ha, you can also look how CPython has implemented `try/except` :wink:"
+        }
+    ],
+    "2017-08-19 21:15:48": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "Yes, this solved the problem\u2026 Thanks so much I was going ever so deep down the rabbit hole\u2026   making a new COL for primary ID and removing the primary_id from the other requirements was the fix\u2026 So, when primary key is reference from these instructions in the task #5,  both references refer to the primary keys of the Parent foreign keys, I interpreted it the other way, oops. ```\nplace_id, a string of 60 characters foreign key of places.id, primary key in the table and never null\namenity_id, a string of 60 characters foreign key of amenities.id, primary key in the table and never null\n```"
+        }
+    ],
+    "2017-08-23 01:19:27": [
+        {
+            "user": ""
+        },
+        {
+            "text": "<@U3A6GN8AF|naomi> commented on <@U133P4TPS|guillaume.salva>\u2019s file <https://holberton-students.slack.com/files/guillaume.salva/F6S9YEK5G/image_uploaded_from_ios.jpg|It's not a goat, it's real>: This is wonderful :heart:"
+        }
+    ],
+    "2017-08-11 06:51:36": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U2205GWFM> so I changed `if my_dict is None` to `if not my_dict` and it worked.  But I\u2019m not sure I understand the meaning of `if not my_dict`.  It seems to check both whether an argument is passed, and if the argument is empty.  But I thought `not` evaluates the operand, which is `my_dict`, and that `my_dict` is true if it exists, false if not.  Therefore I\u2019m confused about how it can check if my_dict is empty.  Could you help me understand it?"
+        }
+    ],
+    "2017-08-01 01:27:04": [
+        {
+            "user": "minasanton"
+        },
+        {
+            "text": "<@U4X7LNGF3|minasanton> has joined the channel"
+        }
+    ],
+    "2017-08-19 22:35:15": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "Interestingly, the updated code with `a3` in place of `a2` in the line: `p2.amenities.append(a3)` functions with no errors when both COLS `place_id` and `amenity_id` each have `primary_key=True` as a contraint in the `place_amenity` table (and there is no 3rd COL `id`).  Is this because sqlalchemy magic sets only 1 COL to primary key, or something else?  Not sure for now, but I\u2019ll be looking into it."
+        }
+    ],
+    "2017-07-02 14:02:31": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<@U3JFW1Y9F|john.c> uploaded a file: <https://holberton-students.slack.com/files/john.c/F63KJA4K0/screen_shot_2017-07-02_at_7.02.01_am.png|Screen Shot 2017-07-02 at 7.02.01 AM.png> and commented: For AirBnB web_static, for task #6 we create the `.popover` class for the tag `ul` and style it in CSS to only appear when mouse hovers over `.filters` class.  Has anyone moved beyond task #6?  How does your `.popover`class appear in relation to the section of class: `.places`?  For mine, both elements, the `.filters` `ul` and places `section` appear in the same place so it looks like they are on top of each other in the z axis (z-index) dimension.  Is this temporarily okay, or are we supposed to make the `.places` section adjust for when mouse hovers over the `.filters` class so that they are on top of eachother in the y axis plain?  Or should we use `z-index` to make the dropdown appear higher in the `z-index`?"
+        }
+    ],
+    "2017-08-21 23:12:35": [
+        {
+            "user": "jwang823"
+        },
+        {
+            "text": "If you have a loop and only some of the things you loop through meet the try requirements, you can make it so that on except it skips - so that part of the loop executes\nIf you put it around the loop, it'll fail/skip everything (all or nothing)\nsomeone correct me if i'm wrong tho I haven't touched python in a long while ;_;"
+        }
+    ],
+    "2017-08-01 00:04:11": [
+        {
+            "user": "felicia"
+        },
+        {
+            "text": "<@U56H4NNLD|felicia> has joined the channel"
+        }
+    ],
+    "2017-08-28 20:35:42": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "I see. So if your getter is just returning the value, you may as well just use the variable directly. Thanks!"
+        }
+    ],
+    "2017-08-21 23:10:19": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "Does anyone know whether there is a practical difference between using a `try: except:` clause inside of a for loop vs around a for loop? E.g."
+        }
+    ],
+    "2017-08-19 22:50:16": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "*mysql output:*\n```\nmysql&gt; SELECT \n    -&gt;     a.name, p.name \n    -&gt; FROM \n    -&gt;     place_amenity AS pa JOIN places AS p ON pa.place_id = p.id \n    -&gt;     JOIN amenities AS a ON pa.amenity_id = a.id\n    -&gt; ORDER BY a.name, p.name DESC;\n+-------+---------+\n| name  | name    |\n+-------+---------+\n| Cable | House 2 |\n| Cable | House 1 |\n| Eth   | House 2 |\n| Wifi  | House 2 |\n| Wifi  | House 1 |\n+-------+---------+\n5 rows in set (0.00 sec)\n\nmysql&gt; show create table place_amenity;\n| place_amenity | CREATE TABLE `place_amenity` (\n  `place_id` varchar(60) NOT NULL,\n  `amenity_id` varchar(60) NOT NULL,\n  PRIMARY KEY (`place_id`,`amenity_id`),\n  KEY `amenity_id` (`amenity_id`),\n  CONSTRAINT `place_amenity_ibfk_1` FOREIGN KEY (`place_id`) REFERENCES `places` (`id`),\n  CONSTRAINT `place_amenity_ibfk_2` FOREIGN KEY (`amenity_id`) REFERENCES `amenities` (`id`)\n) ENGINE=InnoDB DEFAULT CHARSET=latin1 |\n```\n*PlaceAmenity Class Definition:*\n```class PlaceAmenity(Base):\n    if environ.get('HBNB_TYPE_STORAGE') == 'db':\n        __tablename__ = \"place_amenity\"\n        metadata = Base.metadata\n        place_id = Column(String(60),\n                          ForeignKey('places.id'),\n                          nullable=False,\n                          primary_key=True)\n        amenity_id = Column(String(60),\n                            ForeignKey('amenities.id'),\n                            nullable=False,\n                            primary_key=True)\n```"
+        }
+    ],
+    "2017-08-19 21:39:33": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Indeed. Fixed"
+        }
+    ],
+    "2017-07-12 21:55:18": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "#4 from 0x0D-SQL, I think there is a contradiction: `Write a script that creates a table called first_table in the database hbtn_0c_0 in your MySQL server.` vs. `The database name will be passed as an argument of the mysql command`.  First database is specified as `hbtn_0c_0`, then states to use the database from input args.  I assume we should do the latter?"
+        }
+    ],
+    "2017-08-28 20:16:30": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "using the getter/setter method inside your class has also a value. For example, if you are doing type/value validation of a private attribute in your setter method, you must use it in your `init` if needed to not duplicate your validation logic"
+        }
+    ],
+    "2017-08-18 22:46:19": [
+        {
+            "user": "jamesheck"
+        },
+        {
+            "text": "<@U5Q57P7FV|jamesheck> has joined the channel"
+        }
+    ],
+    "2017-08-11 06:26:34": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "can someone take a look at my code for #10 in 0x04-python-more_data_structures, where we have to write a function that returns a key with the greatest value from a dictionary?  My code runs and generates the correct output, but is somehow missing an output check (check 6).  I wonder what other edge case I\u2019m missing.  Thanks!"
+        }
+    ],
+    "2017-08-01 21:44:12": [
+        {
+            "user": "alexaorrico"
+        },
+        {
+            "text": "<@U564PRKLH|alexaorrico> has joined the channel"
+        }
+    ],
+    "2017-07-02 16:06:05": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Cool beans"
+        }
+    ],
+    "2017-07-02 16:12:37": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "Yeah, looks like a good fix for now, much better, using `z-index`"
+        }
+    ],
+    "2017-08-15 23:34:48": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "but unlike FileStorage, we don't have a __objects dictionary with all of the objects because that's the db"
+        }
+    ],
+    "2017-08-31 18:40:35": [
+        {
+            "user": "mandonuno"
+        },
+        {
+            "text": "<@U66KHJLCD|mandonuno> has joined the channel"
+        }
+    ],
+    "2017-07-02 15:59:57": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Z-index of places as 1, then the drop down as 2"
+        }
+    ],
+    "2017-07-06 21:15:49": [
+        {
+            "user": "larry2"
+        },
+        {
+            "text": "Anyone have a copy of Head First Java laying around??? <http://www.headfirstlabs.com/books/hfjava/>"
+        }
+    ],
+    "2017-08-15 22:51:12": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "thanks <@U1ZPTH9E3> \u2026 FYI, Guillaume said we should update the `DBStorage` to be the same as `FileStorage`"
+        }
+    ],
+    "2017-08-19 21:46:32": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "Cool thanks for all the help, learning a lot here"
+        }
+    ],
+    "2017-08-24 22:44:36": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "does the function continue or exit?"
+        }
+    ],
+    "2017-07-03 03:41:30": [
+        {
+            "user": "jwang823"
+        },
+        {
+            "text": "11/10 accurate"
+        }
+    ],
+    "2017-08-15 22:50:28": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<!here|@here>, <@U133P4TPS>: `FileStorage.all()` returns `__objects`, which has the `key` = `&lt;class&gt;.&lt;id&gt;` of the object : value = `the object`  \u2026.  `DBStorage.all()` returns `dictionary`, unsaved which has the `key` = `&lt;id&gt;` of the object : value = `the object`\n\nAre these supposed to be different?  If not, having these different will mess with the console functionality when the `.all()` method is called on `models.storage` variable.\n\nDo you suggest a fix?  I suggest `DBStorage.all()` should return same dictionary key values as `FileStorage.all()` (i.e. `&lt;class&gt;.&lt;id&gt;`\n\nAnyone else discover this?  Am I wrong?"
+        }
+    ],
+    "2017-08-19 21:05:05": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "And you can ask <@U3XBA3RAS> and <@U36NFE170> , we debugged that yesterday"
+        }
+    ],
+    "2017-07-03 03:36:24": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "jwang823: Thanks!! We got the separate dropdowns, the question was if we should use z-index to make the dropdown appear over the places section, or some other method."
+        }
+    ],
+    "2017-08-01 00:06:21": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U48JY609Y|kiren> has joined the channel"
+        }
+    ],
+    "2017-07-07 18:55:36": [
+        {
+            "user": "anne.c"
+        },
+        {
+            "text": "larry2: I have it, but it is in Menlo Park :confused:"
+        }
+    ],
+    "2017-07-07 19:30:59": [
+        {
+            "user": "larry2"
+        },
+        {
+            "text": "right, it looks like I just need to write hello world in Java and make up a one minute rap ..."
+        }
+    ],
+    "2017-08-24 22:53:26": [
+        {
+            "user": "kristen_loyd"
+        },
+        {
+            "text": "unless you specify a pass in your except, it stops. \nYou can specify another code block in the except if you need other things to happen when an exception is caught"
+        }
+    ],
+    "2017-07-12 22:14:30": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<@U133P4TPS> RTFM to me, I just realized Usage of `mysql`"
+        }
+    ],
+    "2017-07-31 23:11:16": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U4KD7JLF3|tanyak> has joined the channel"
+        }
+    ],
+    "2017-08-21 23:23:20": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "Good answer. Do you know if there is a performance difference given that it seems like you are creating a new handler every time you go through the loop?"
+        }
+    ],
+    "2017-07-02 16:01:21": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "yeah, z-index would be a good fix, but not sure if that\u2019s what we\u2019re going for since there is no specifications."
+        }
+    ]
+}

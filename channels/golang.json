@@ -1,0 +1,426 @@
+{
+    "2017-08-03 03:08:55": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "Sounds this might be a good go project!"
+        }
+    ],
+    "2017-08-03 03:12:09": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "yup, did earlier today :)D"
+        }
+    ],
+    "2017-07-07 00:52:00": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "Are you at school?"
+        }
+    ],
+    "2017-07-11 00:55:19": [
+        {
+            "user": "wallee"
+        },
+        {
+            "text": "<@U2J4Y03RC|wallee> has joined the channel"
+        }
+    ],
+    "2017-07-07 00:26:51": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> has joined the channel"
+        }
+    ],
+    "2017-07-28 00:12:06": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "i'm rewriting the shell project in go"
+        }
+    ],
+    "2017-07-28 00:12:29": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "<https://github.com/glyif/go-arsine>"
+        }
+    ],
+    "2017-07-07 00:42:55": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "<@U48JY609Y> I can get it done this weekend"
+        }
+    ],
+    "2017-08-03 03:01:59": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "i reached out to sam from docker on how to start contributing to docker"
+        }
+    ],
+    "2017-07-28 00:12:27": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "going to try to use as little builtin modules as possible"
+        }
+    ],
+    "2017-08-03 03:02:32": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "\"Try building a version of docker engine that works. It'll be useful.\n\nThen start changing a small thing on the CLI, that may be the easiest. And rebuild.\""
+        }
+    ],
+    "2017-07-06 19:49:16": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U48JY609Y|kiren> pinned a message to this channel."
+        }
+    ],
+    "2017-07-06 23:53:03": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "Added resource and changes to the README"
+        }
+    ],
+    "2017-07-07 16:27:38": [
+        {
+            "user": "electra"
+        },
+        {
+            "text": "<@U0ETPG4Q7|electra> has joined the channel"
+        }
+    ],
+    "2017-07-22 13:56:00": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "Wow alex, no the frence timezone?"
+        }
+    ],
+    "2017-07-14 01:29:18": [
+        {
+            "user": "alex"
+        },
+        {
+            "text": "Two things:\n<https://blog.golang.org/toward-go2>"
+        }
+    ],
+    "2017-07-22 10:53:46": [
+        {
+            "user": "alex"
+        },
+        {
+            "text": "<https://jaxenter.com/go-interview-jackson-hashicorp-135746.html>"
+        }
+    ],
+    "2017-07-07 00:05:59": [
+        {
+            "user": "kpak"
+        },
+        {
+            "text": "<@U3P739TPZ|kpak> has joined the channel"
+        }
+    ],
+    "2017-07-06 19:49:12": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<https://github.com/srinitude/go-resources>"
+        }
+    ],
+    "2017-07-06 22:05:38": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "thanks!"
+        }
+    ],
+    "2017-07-25 20:34:55": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "this might be of interest to ya'll :slightly_smiling_face: <https://blog.howdy.ai/build-a-bot-store-data-for-your-users-2e91fe7023d7>"
+        }
+    ],
+    "2017-08-03 04:50:30": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "Lighting mcqueen"
+        }
+    ],
+    "2017-07-07 01:35:56": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "I found this, but it needs your password <https://gist.github.com/marchampson/4655798>"
+        }
+    ],
+    "2017-08-03 03:09:23": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "think so two, will try to get my first docker-cli PR out in a week"
+        }
+    ],
+    "2017-07-14 01:29:11": [
+        {
+            "user": "alex"
+        },
+        {
+            "text": "Hey gophers!"
+        }
+    ],
+    "2017-07-07 00:33:50": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "<@U2205GWFM|tim.britton> has joined the channel"
+        }
+    ],
+    "2017-07-07 00:50:22": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "<@U0EQZP8BY> I'm interested to hear your solution"
+        }
+    ],
+    "2017-07-28 00:12:33": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "if you wanna contribute :slightly_smiling_face:"
+        }
+    ],
+    "2017-08-03 03:02:06": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "and this is what he said"
+        }
+    ],
+    "2017-08-06 07:49:46": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> pinned a message to this channel."
+        }
+    ],
+    "2017-07-25 20:34:28": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "<@U38JLP69K|egsy> has joined the channel"
+        }
+    ],
+    "2017-07-07 00:44:58": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U35J0JMEE> Lolz"
+        }
+    ],
+    "2017-07-07 00:44:05": [
+        {
+            "user": "agha"
+        },
+        {
+            "text": "kiren: You mean that would be the way to Go? :wink: :wink:"
+        }
+    ],
+    "2017-08-03 03:10:07": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "they do their github issues w difficulty ratings"
+        }
+    ],
+    "2017-07-11 05:23:19": [
+        {
+            "user": "alex"
+        },
+        {
+            "text": "<@U0EQW4999|alex> has joined the channel"
+        }
+    ],
+    "2017-08-03 03:10:37": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "so there's a beginner tag for easy (or at least not advanced) tasks "
+        }
+    ],
+    "2017-08-03 03:01:40": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "also, starting to go through docker source code and starting to contribute to docker-cli"
+        }
+    ],
+    "2017-07-14 01:32:14": [
+        {
+            "user": "alex"
+        },
+        {
+            "text": "and\u2026\nAs of July Go is between the 10 most popular languages with an incredible change rate of 2.2%\nThat\u2019s impressive! Very promising!\n<https://www.tiobe.com/tiobe-index/>"
+        }
+    ],
+    "2017-07-06 19:47:34": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U48JY609Y|kiren> has joined the channel"
+        }
+    ],
+    "2017-07-07 00:51:15": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "I can write a blog about it :slightly_smiling_face: or I can tell you how I am planning on doing it"
+        }
+    ],
+    "2017-07-07 00:04:35": [
+        {
+            "user": "kjowong"
+        },
+        {
+            "text": "<@U3XBA3RAS|kjowong> has joined the channel"
+        }
+    ],
+    "2017-08-03 04:31:05": [
+        {
+            "user": "rdsim8589"
+        },
+        {
+            "text": "the easy one are picked up quickly"
+        }
+    ],
+    "2017-07-06 23:58:05": [
+        {
+            "user": "agha"
+        },
+        {
+            "text": "<@U35J0JMEE|agha> has joined the channel"
+        }
+    ],
+    "2017-08-03 03:09:53": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "just stalk the issues and claim one"
+        }
+    ],
+    "2017-07-13 04:34:17": [
+        {
+            "user": "agha"
+        },
+        {
+            "text": "<https://blog.newrelic.com/2017/02/16/golang-experts-follow-online/>"
+        }
+    ],
+    "2017-07-07 00:41:04": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "Whoever wants to make a script to automate the adding of collaborators when people join in the channel, that would be :100:\n<https://developer.github.com/v3/repos/collaborators/#add-user-as-a-collaborator>"
+        }
+    ],
+    "2017-07-28 13:42:13": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "Badass! I'm definitely interested"
+        }
+    ],
+    "2017-08-06 07:49:41": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<https://github.com/golang/go/wiki/Learn>"
+        }
+    ],
+    "2017-07-07 00:20:43": [
+        {
+            "user": "corbin-coleman"
+        },
+        {
+            "text": "<@U1ZQVKNMV|corbin-coleman> has joined the channel"
+        }
+    ],
+    "2017-07-07 00:08:01": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "<@U0EQZP8BY|sgrcia> has joined the channel"
+        }
+    ],
+    "2017-08-06 07:47:09": [
+        {
+            "user": "lisa.leung"
+        },
+        {
+            "text": "<@U367DBQDD|lisa.leung> pinned a message to this channel."
+        }
+    ],
+    "2017-07-11 12:33:21": [
+        {
+            "user": "siphan"
+        },
+        {
+            "text": "<@U0ERUMSKC|siphan> has joined the channel"
+        }
+    ],
+    "2017-07-06 23:58:09": [
+        {
+            "user": "holdengs"
+        },
+        {
+            "text": "<@U2377RNJU|holdengs> has joined the channel"
+        }
+    ]
+}

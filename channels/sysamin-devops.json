@@ -1,0 +1,170 @@
+{
+    "2017-07-12 18:27:22": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "<@U38JLP69K|egsy> archived the channel"
+        }
+    ],
+    "2017-07-11 17:24:08": [
+        {
+            "user": "naomi"
+        },
+        {
+            "text": "<@U3A6GN8AF|naomi> has joined the channel"
+        }
+    ],
+    "2017-07-11 18:09:22": [
+        {
+            "user": "julija.lee"
+        },
+        {
+            "text": "<@U3QEYLVRU|julija.lee> has joined the channel"
+        }
+    ],
+    "2017-07-11 19:47:34": [
+        {
+            "user": "kjowong"
+        },
+        {
+            "text": "<@U3XBA3RAS|kjowong> has left the channel"
+        }
+    ],
+    "2017-07-11 17:24:00": [
+        {
+            "user": "sylvain"
+        },
+        {
+            "text": "<@U0EP60AQ0|sylvain> has joined the channel"
+        }
+    ],
+    "2017-07-11 17:23:55": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "<@U3JFW1Y9F|john.c> has joined the channel"
+        }
+    ],
+    "2017-07-11 17:34:39": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "For extra fun <@U0ER3551R> says to study `cgroups`, `LXC` and `namespaces`"
+        }
+    ],
+    "2017-07-11 19:01:51": [
+        {
+            "user": "halinav"
+        },
+        {
+            "text": "<@U3K2PM7HB|halinav> has joined the channel"
+        }
+    ],
+    "2017-07-11 19:36:58": [
+        {
+            "user": "katya"
+        },
+        {
+            "text": "<@U3J60EBCG|katya> has joined the channel"
+        }
+    ],
+    "2017-07-11 18:18:28": [
+        {
+            "user": "kjowong"
+        },
+        {
+            "text": "<@U3XBA3RAS|kjowong> has joined the channel"
+        }
+    ],
+    "2017-07-11 17:33:08": [
+        {
+            "user": "bobstermyang"
+        },
+        {
+            "text": "<@U3JEPHYRW|bobstermyang> has joined the channel"
+        }
+    ],
+    "2017-07-11 17:22:58": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "Is this legit <@U0EP60AQ0> <http://packetlife.net/media/library/23/common-ports.pdf> "
+        }
+    ],
+    "2017-07-11 20:32:18": [
+        {
+            "user": "cnov"
+        },
+        {
+            "text": "<@U3Q77TAFL|cnov> has joined the channel"
+        }
+    ],
+    "2017-07-11 21:43:11": [
+        {
+            "user": "hc"
+        },
+        {
+            "text": "<@U3W4WAY5B|hc> has joined the channel"
+        }
+    ],
+    "2017-07-11 17:59:44": [
+        {
+            "user": "agha"
+        },
+        {
+            "text": "<@U35J0JMEE|agha> has joined the channel"
+        }
+    ],
+    "2017-07-11 17:24:52": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "Ok (tho not as pretty)"
+        }
+    ],
+    "2017-07-12 18:26:50": [
+        {
+            "user": "naomi"
+        },
+        {
+            "text": "<@U3A6GN8AF|naomi> has left the channel"
+        }
+    ],
+    "2017-06-26 03:57:45": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "<@U133P4TPS|guillaume.salva> has left the channel"
+        }
+    ],
+    "2017-07-11 17:22:37": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "<@U38JLP69K|egsy> has joined the channel"
+        }
+    ],
+    "2017-07-12 18:24:07": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "I kept getting this response: ```E: Unable to locate package mysql-server-5.7\nE: Couldn't find any package by regex 'mysql-server-5.7'``` and couldn\u2019t find any `5.7-rc` so I installed: `mysql  Ver 14.14 Distrib 5.7.18`, will this be a problem?"
+        }
+    ],
+    "2017-07-12 18:26:25": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "hello all! according to <@U0VDFKAQ0> we should join <#C45EX84TZ|system-engineering>  <!here|@here>"
+        }
+    ]
+}

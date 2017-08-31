@@ -1,0 +1,74 @@
+{
+    "2017-07-15 15:15:01": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "Autocompletion in emacs?  Anyone using one they like, if so would love to know more about it."
+        }
+    ],
+    "2017-07-16 13:23:56": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "I used autocomplete with Visual Studio's IDE a little bit when I was first starting to learn and it is really nice.  You would love it, a lot less typing."
+        }
+    ],
+    "2017-07-15 15:13:08": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "<@U51N6GG75|kclaw> has joined the channel"
+        }
+    ],
+    "2017-07-16 06:42:26": [
+        {
+            "user": "egsy"
+        },
+        {
+            "text": "<@U51N6GG75> tell me more about this -- I don't use any auto complete features at the moment but depending on the language emacs has limited built in support"
+        }
+    ],
+    "2017-07-16 13:25:01": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "A really good one and you are basically just spelling the first letter or first 2 letters of function/variable names and then tab to complete"
+        }
+    ],
+    "2017-07-16 13:26:37": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "It appears that there combinations of packages to get the full experience."
+        }
+    ],
+    "2017-07-16 13:32:30": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "It usually saves the most typing when writing HTML but is  a huge reducer of keystrokes for any language."
+        }
+    ],
+    "2017-07-16 13:23:03": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "I have read enough online to know that autocomplete is possible on emacs but there are different packages, so wanted to know which one people were using.  This Reddit thread has a lot of different suggestions, but is a year old.  <https://www.reddit.com/r/emacs/comments/49ee8f/autocompletion_in_emacs_what_to_do/>"
+        }
+    ],
+    "2017-07-16 13:31:05": [
+        {
+            "user": "kclaw"
+        },
+        {
+            "text": "So you would have autocomplete for words you have already typed but also language specific autocomplete, so if you started typing \"st\" would have \"strcpy()\" pop up."
+        }
+    ]
+}

@@ -1,0 +1,802 @@
+{
+    "2017-08-06 20:18:24": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "<@U4KD7JLF3> I think this is a bug on our side. LM check with Alex. Please move on to the next task for now."
+        }
+    ],
+    "2017-08-06 21:01:43": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U0ER3551R> <@U0VDFKAQ0> I don\u2019t mind refactoring, but I just want to make sure that\u2019s the reason. I also have multiple definitions of create_node in those files, which could be why it\u2019s not compiling."
+        }
+    ],
+    "2017-07-06 16:35:18": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Each of them have of course, many revisions ( SSE1, SSE2, etc. :slightly_smiling_face: )"
+        }
+    ],
+    "2017-08-07 23:35:12": [
+        {
+            "user": "johnpcottrell"
+        },
+        {
+            "text": "help please: project 0x17 Dynamic libraries: question 1: what is wrong with my script? It passes all but one checker. I have tried many things, including using fPIC instead of fpic, moving around flags, removing warnings, etc.  What am I missing?  thanks. <https://github.com/JohnCottrell/holbertonschool-low_level_programming/blob/master/0x17-dynamic_libraries/1-create_dynamic_lib.sh>"
+        }
+    ],
+    "2017-08-06 20:57:05": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "Let me see"
+        }
+    ],
+    "2017-08-06 20:43:58": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "<@U4KD7JLF3>: Now we will compile both `\"2-add_dnodeint.c` and `3-add_dnodeint_end.c` for the the insert task.\nSo right now you have a `multiple definition` for the function `add_dnodeint`"
+        }
+    ],
+    "2017-08-18 22:46:14": [
+        {
+            "user": "jamesheck"
+        },
+        {
+            "text": "<@U5Q57P7FV|jamesheck> has joined the channel"
+        }
+    ],
+    "2017-07-20 00:41:54": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "Ahhhh, we had those valgrind flags in the wrong order!"
+        }
+    ],
+    "2017-08-06 20:13:23": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "Are we taljing about the same thing?"
+        }
+    ],
+    "2017-07-20 00:41:55": [
+        {
+            "user": "felicia"
+        },
+        {
+            "text": "omg, we used \"valgrind --leak-check-full -v\". Your order gives so more info"
+        }
+    ],
+    "2017-07-20 00:40:55": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "did you get as far to be able to see that the memory that you are not freeing is the memory that you are allocating in your `findCmd` function and `tokenize` functions?"
+        }
+    ],
+    "2017-08-19 17:25:08": [
+        {
+            "user": "asaiapalacios"
+        },
+        {
+            "text": "Yeah, for sure. She just moved to SF and is looking for work in software engineering :raised_hands::skin-tone-3:"
+        }
+    ],
+    "2017-08-13 23:16:36": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U48JY609Y|kiren> uploaded a file: <https://holberton-students.slack.com/files/kiren/F6N58PCSZ/compilerstack.jpg|CompilerStack.jpg>"
+        }
+    ],
+    "2017-08-01 23:53:20": [
+        {
+            "user": "slackbot"
+        },
+        {
+            "text": "This message was deleted."
+        }
+    ],
+    "2017-08-06 20:30:03": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "BTW very clean / professional level of coding. It's clear, easy to understand, well documented. It's awesome! Very impressed. Congrats <@U4KD7JLF3> !"
+        }
+    ],
+    "2017-08-07 23:48:01": [
+        {
+            "user": "johnpcottrell"
+        },
+        {
+            "text": "I did chmod u+x 1-create_dynamic_lib.sh    But good question, thanks."
+        }
+    ],
+    "2017-08-31 01:16:55": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "<https://www.youtube.com/watch?v=ci1PJexnfNE>"
+        }
+    ],
+    "2017-07-06 16:30:28": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "then the second phase is go to protected mode, which appeared on the x386 ( or was actually use, since the 286 version was not really working )"
+        }
+    ],
+    "2017-08-12 19:58:41": [
+        {
+            "user": "naomi"
+        },
+        {
+            "text": "for anyone whose eyes initially glazed over in abysmal loss the first time <@U0ER3551R> tried to explain registers <https://securedorg.github.io/images/helloworld.gif>"
+        }
+    ],
+    "2017-08-06 21:08:37": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "<@U48JY609Y> : The issue is that the same function defined in `3-add_dnodeint_end.c` and `2-add_dnodeint.c`"
+        }
+    ],
+    "2017-08-06 21:05:33": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "I did"
+        }
+    ],
+    "2017-08-06 20:31:52": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "thanks <@U0ER3551R>! This means a lot coming from you"
+        }
+    ],
+    "2017-07-06 16:51:10": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "<https://ae01.alicdn.com/kf/HTB1bdBPMXXXXXcFaXXXq6xXFXXXF/A80386DX-33-IV-SX366-Gold-PGA-132-pins-386-Vintage-microprocessor-i386-old-cpu-A80386DX-CPGA132.jpg>"
+        }
+    ],
+    "2017-08-06 20:49:36": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "Awesome code <@U4KD7JLF3> :slightly_smiling_face:"
+        }
+    ],
+    "2017-08-31 18:40:10": [
+        {
+            "user": "mandonuno"
+        },
+        {
+            "text": "<@U66KHJLCD|mandonuno> has joined the channel"
+        }
+    ],
+    "2017-08-06 20:12:42": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "I don't see any mistake here. Code is clean too. I like it."
+        }
+    ],
+    "2017-07-06 16:46:56": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "( Also, it was very error prone to install these CPUs, now it is super easy, but these one had actual pin you could break ! )"
+        }
+    ],
+    "2017-07-06 16:31:48": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "actually since the first core i7 ( 920, etc. ) nothing dramatic have changed."
+        }
+    ],
+    "2017-08-06 22:37:29": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "You don\u2019t need this function for this task?"
+        }
+    ],
+    "2017-07-06 20:25:12": [
+        {
+            "user": "larry2"
+        },
+        {
+            "text": "felicia: I'd hate to be the guy who was responsible for the $475 million dollar bug!"
+        }
+    ],
+    "2017-07-06 16:31:00": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "and then from there, the CPU got more and more complex, with multiple level of memory cache, hyper threading, then multi processor on a single die, etc."
+        }
+    ],
+    "2017-07-18 02:46:11": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "Hey all (and <@U0VDFKAQ0>, <@U0ER3551R>, <@U367Z1MC7> <@U3R6G6HKK>), I\u2019m updating our Shell, and was hoping for a little help with the checker\u2026\n\n(1) Did anyone understand what this check is for: *Test \u201cexit\u201d after another command: \u201c/bin/ls /test_hbtn\u201d (will fail)*  The check is for *Simple shell 0.4*, which tests command: `exit`.  The checker states that *[Expected]: OK* and *[Got]: /bin/ls: cannot access /test_hbtn: No such file or directory*.  I have tried running tests with `sh` and our shell has the exact same output as `sh`.  For my tests, I ran tests with inputs of `echo \"/bin/ls /usr\" | ./hsh ` and `echo \"/bin/ls exit\" | ./hsh` and our shell always has the same output as `sh`.  I also ran the test: `$ /bin/ls /usr` followed by `$ exit` in interactive mode, and still the output is the same as `sh`\u2026.  I am not sure what this test is testing, so I\u2019d appreciate any help.\n\n(2) for *setenv, unsetenv*, when the checker runs tests for incorrect usage such as *no parameter* and *one parameter*, the checker states: \n```\n[Expected] \nOK \n(2 chars long)```\nHowever, the instructions state *If the command fails or the parameters are not valid, you should print something on the standard error*.  Our shell prints to STDERR in these circumstances, and nothing to STDOUT, yet we are failing the checks."
+        }
+    ],
+    "2017-08-19 17:21:23": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U0GCHKPTM> Awesome stuff! Her interest in CS with a design background will take her really far for sure"
+        }
+    ],
+    "2017-08-06 20:56:49": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U0VDFKAQ0> I deleted `2-add-dnodeint.c` in my function but still missing some output checks\u2026"
+        }
+    ],
+    "2017-07-06 21:11:17": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "We're learning about `strtok` for the shell project and it seems there are two versions: the regular `strtok`, which uses a static buffer to store the string, and `strtok_r`, which somehow does not, allowing it to be \"reentrant.\" Does anyone know, a) whether it's better practice in general to use the reentrant version and b) how the reentrant version stores the string while continuing to tokenize?"
+        }
+    ],
+    "2017-08-06 20:25:48": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "sry about this"
+        }
+    ],
+    "2017-08-06 22:40:51": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "if not I\u2019ll just change my code"
+        }
+    ],
+    "2017-07-06 16:29:52": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "for example the first phase is real mode, which is something  from 8086 and 80286 ( no virtual memory ). Actually 286 had a beginning of an implementation of protected mode ... that no one used because it was very buggy"
+        }
+    ],
+    "2017-07-20 02:58:06": [
+        {
+            "user": "sravanthi"
+        },
+        {
+            "text": "use `-g` when compiling and valgrind as david, using `-g` will giv the valgrind op with line no's"
+        }
+    ],
+    "2017-07-15 06:49:48": [
+        {
+            "user": "ibtarek"
+        },
+        {
+            "text": "<@U696MSTGB|ibtarek> has joined the channel"
+        }
+    ],
+    "2017-07-06 16:32:41": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "hopefully with AMD and Rysen, Intel will start to innovate again :slightly_smiling_face:"
+        }
+    ],
+    "2017-08-06 20:22:47": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U0ER3551R> thanks!"
+        }
+    ],
+    "2017-08-06 20:25:43": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "Ok I just fixed it. You are all GREEN :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-06 16:33:28": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Also, instruction extension, like MMX, SSE, AMD64 ( 64 bits instructions come from AMD ! ), and now AVX"
+        }
+    ],
+    "2017-07-06 17:56:06": [
+        {
+            "user": "felicia"
+        },
+        {
+            "text": "Intel had a problem with floating point that affected scientists' experiments back then. <https://en.wikipedia.org/wiki/Pentium_FDIV_bug>"
+        }
+    ],
+    "2017-08-06 22:46:50": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "for example, previously I copied my len function in `3-add_dnodeint_end.c`, and since I assumed checker compiles with `3-add_dnodeint_end.c` I didn\u2019t bother to copy the len function to `8-delete_dnodeint.c`"
+        }
+    ],
+    "2017-08-02 00:19:11": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "Having trouble freeing literally everything left that still needs to be freed"
+        }
+    ],
+    "2017-07-06 23:09:21": [
+        {
+            "user": "tim.britton"
+        },
+        {
+            "text": "tip: make sure you understand exactly how strtok works. for instance, make sure you understand exactly what a string looks like after you run strtok on it, and what strtok returns exactly. this is a super common hangup"
+        }
+    ],
+    "2017-08-06 19:34:33": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "Can someone take a look at my code on inserting a node in a doubly linked list?  The code compiles and runs locally with `gcc -Wall -pedantic -Werror -Wextra 7-main.c 3-add_dnodeint_end.c 0-print_dlistint.c 4-free_dlistint.c 7-insert_dnodeint.c`, but is not passing any checkers except for one pity check.  :sob:"
+        }
+    ],
+    "2017-08-07 23:41:01": [
+        {
+            "user": "jeffrey.kanemitsu"
+        },
+        {
+            "text": "did  you chmod it?"
+        }
+    ],
+    "2017-08-12 20:01:54": [
+        {
+            "user": "naomi"
+        },
+        {
+            "text": "it moves :pray::skin-tone-2::sob::heart:"
+        }
+    ],
+    "2017-08-07 22:28:59": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "Interesting talk about building programming languages: <https://www.youtube.com/watch?v=_ahvzDzKdB0>"
+        }
+    ],
+    "2017-08-08 04:07:06": [
+        {
+            "user": "nooplion"
+        },
+        {
+            "text": "wait, i think i know why!"
+        }
+    ],
+    "2017-08-06 21:05:04": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U0VDFKAQ0> ok.  Then we should also update the compilation in the problem description since that\u2019s how people will be compiling and testing their code"
+        }
+    ],
+    "2017-08-21 06:56:51": [
+        {
+            "user": "lancesanity"
+        },
+        {
+            "text": "<@U6F1THWNS|lancesanity> has joined the channel"
+        }
+    ],
+    "2017-08-06 21:01:09": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U0ER3551R> <@U0VDFKAQ0> Got the insert right yesterday, but now not getting any checks after the checker change. Is this because I\u2019m not using the add_node and add_node_end? <https://github.com/srinitude/holbertonschool-low_level_programming/blob/master/0x16-doubly_linked_lists/7-insert_dnodeint.c>"
+        }
+    ],
+    "2017-07-20 00:42:47": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "so, track down those variables that you malloc in those 2 functions, and you should find the place that you do not free them"
+        }
+    ],
+    "2017-08-13 00:16:41": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "<@U367Z1MC7|stueygk> pinned a message to this channel."
+        }
+    ],
+    "2017-07-06 16:28:22": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "each of these phase actually relate to CPU architecture"
+        }
+    ],
+    "2017-07-06 18:05:25": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Not only with floating points :slightly_smiling_face: <http://www.theregister.co.uk/2017/06/25/intel_skylake_kaby_lake_hyperthreading/>"
+        }
+    ],
+    "2017-08-06 21:09:44": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "<@U0ER3551R> <@U0VDFKAQ0> <@U133P4TPS> Changed the function name in one file to \u201cinstantiate_node\u201d to prevent namespace collision and it works :slightly_smiling_face: I really liked how <@U4KD7JLF3> reused her other functions and think that from now on, we should be able to use the functions we created in previous exercises to make our code cleaner and more modular by including them in the compile instructions like you did for this one. Shell was great in that we compiled with \"*.c,\" so function reuse was painless. Just a thought :slightly_smiling_face:"
+        }
+    ],
+    "2017-08-02 04:27:46": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "I may in the next few days. In the meantime make sure you're using --leak-check=full with valgrind and there's another it suggests when you run it. This lets you see where the leak is happening. "
+        }
+    ],
+    "2017-07-07 00:58:48": [
+        {
+            "user": "j-tyler"
+        },
+        {
+            "text": "Tip: You can finish 200% of the shell project without understanding how strtok works. Try to think about how to 'read' command input before you dive into someone else's solution (strtok)"
+        }
+    ],
+    "2017-07-20 00:22:19": [
+        {
+            "user": "felicia"
+        },
+        {
+            "text": "Kiren and I are looking for some help finding the memory leaks in our code. We've used valgrind but can't find all the leaks. This is our code, <https://github.com/srinitude/simple_shell>"
+        }
+    ],
+    "2017-08-06 20:16:12": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "oh 7. sorry. LM check"
+        }
+    ],
+    "2017-08-06 19:35:18": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<https://github.com/tanyastropheus/holbertonschool-low_level_programming/blob/master/0x16-doubly_linked_lists/7-insert_dnodeint.c>"
+        }
+    ],
+    "2017-07-20 00:43:27": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "also, you will have to find every value that you are using that is not yet initialized, just initialize it.  you have a bunch of `Conditional jump or move depends on uninitialised value(s)` errors, just find those values and initialize them before you use them!"
+        }
+    ],
+    "2017-07-06 16:34:57": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "MMX was for the pentium, and only for integer computation, while SSE and AVX are for real ( floating point) numbers."
+        }
+    ],
+    "2017-08-06 22:41:51": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "The example compiles with 3-add_dnodeint_end.c because it is used in the example main"
+        }
+    ],
+    "2017-08-06 20:13:25": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "dlistint_t *add_dnodeint(dlistint_t **head, const int n);?"
+        }
+    ],
+    "2017-07-06 21:31:13": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "birnbera: only `strtok` is allowed in shell project, but still good to know, the difference\u2026  <@U3JEPHYRW> built his own `strtok()`; I bet you will too."
+        }
+    ],
+    "2017-08-02 04:28:35": [
+        {
+            "user": "stueygk"
+        },
+        {
+            "text": "You can also use exit to jump out of the program at specific points so you can hone in on where the leak is occurring. Jumping out with no leaks means your leak happens sometime after that exit point. "
+        }
+    ],
+    "2017-08-06 21:00:35": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "also just curious why we are compiling with `2-add_dnodeint.c` now.  It seems unnecessary\u2026"
+        }
+    ],
+    "2017-08-06 22:54:24": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "since students test their code by compiling the way it is stated in the problem, having the checker compile the same way allows us to check our code independently  instead of wondering how the checker is checking differently and guessing"
+        }
+    ],
+    "2017-07-20 00:40:08": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "did you run your code with `valgrind -v --leak-check=full ./hsh`?"
+        }
+    ],
+    "2017-08-06 20:55:27": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U48JY609Y>  Thanks!  And thank YOU for showing me how to break down my code :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-06 16:44:59": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "<https://cdn.pcsteps.com/wp-content/uploads/2015/08/How-Linux-Begun-It-was-Almost-called-Freax-03.png>"
+        }
+    ],
+    "2017-08-06 22:45:31": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "right.  But I think it\u2019s helpful if the checker compiles the same way as stated in the problem"
+        }
+    ],
+    "2017-07-06 16:53:12": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "At the time, the only way to know the right way to plug the CPU into the socket, was that one of the border was mangled a bit and contains a small dot ( you can see it on the previous picture ). It was SUPER error prone, and you could kill your CPU if you were not doing things correctly."
+        }
+    ],
+    "2017-08-06 20:53:08": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "Looks like I have to change my code now for #7, haha"
+        }
+    ],
+    "2017-07-06 16:34:21": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "MMX, SSE and AVX are new assembly instructions that allows to do multiple operation at the same time (SIMD : Single instruction, multiple data). So for example, do 4 multiplications in one instruction, etc."
+        }
+    ],
+    "2017-08-06 21:02:37": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "<@U4KD7JLF3> : At first, we didn\u2019t compile woth 3-add_dnodeint_end.c because it was only used in the example main. But now that we compile with it, and you\u2019re allowed to use it in your code, it is more consistent to allow you to use 2-add_dnodeint.c as well"
+        }
+    ],
+    "2017-08-08 04:10:02": [
+        {
+            "user": "nooplion"
+        },
+        {
+            "text": "if you try running our test case youll get an error. and thats because in your 0-main.c \u2018s return statement they are using EXIT_SUCCESS with is macros in the stdlib.h library and your not including it your holberton.h file. Im assuming that the checker prob checks the that test case and is failing because of it. (not really your fault)"
+        }
+    ],
+    "2017-07-07 06:56:55": [
+        {
+            "user": "anne.c"
+        },
+        {
+            "text": "To sum up, follow <@U220S45AB>'s tip to figure out what you want to do, it will save you time and headaches down the road, <@U2205GWFM>'s tip to solve unexpected behaviors and rtfsc to see how they work"
+        }
+    ],
+    "2017-08-19 16:55:38": [
+        {
+            "user": "asaiapalacios"
+        },
+        {
+            "text": "Small world <@U48JY609Y>! I met Nicole, author of the compiler piece, this week at a Girls Develop It session. She mentioned this blog post :raised_hands::skin-tone-3:"
+        }
+    ],
+    "2017-08-06 22:30:00": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "<@U0VDFKAQ0> Can you also check that #8 is compiling with `3-add_dnodeint_end.c`?"
+        }
+    ],
+    "2017-07-06 16:32:21": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "( and that is also probably why we are not seeing any huge performance gain from one generation to the newest now )"
+        }
+    ],
+    "2017-08-06 20:18:36": [
+        {
+            "user": "ju"
+        },
+        {
+            "text": "<@U0VDFKAQ0> will look at the checker"
+        }
+    ],
+    "2017-07-06 21:15:40": [
+        {
+            "user": "holdengs"
+        },
+        {
+            "text": "<https://stackoverflow.com/questions/22210546/whats-the-difference-between-strtok-and-strtok-r-in-c>"
+        }
+    ],
+    "2017-08-06 21:06:19": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "Ok fixed, the issue <@U4KD7JLF3>, you\u2019re all green"
+        }
+    ],
+    "2017-07-06 16:28:11": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "he was talking of different boot phase"
+        }
+    ],
+    "2017-08-06 22:40:02": [
+        {
+            "user": "tanyak"
+        },
+        {
+            "text": "it\u2019s just that the problem says to compile with `3-add_dnodeint_end.c`, so I put my len function there"
+        }
+    ],
+    "2017-07-06 21:59:59": [
+        {
+            "user": "birnbera"
+        },
+        {
+            "text": "cool thanks!"
+        }
+    ],
+    "2017-08-02 14:11:48": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "Your functions that create unfree\u2019d memory are: `findCmd` and `tokenize` and so you are not freeing `tmpToken` and `tokens` in all circumstances.  You need to track down those 2 variables and in all circumstances of your shell, you need to free them before your program exits, or free them before you create those variables again after another input from user prompt.  You cannot have them left unfree and then cycle through your program again requesting user input, and create all new variables, with the other variable still left dynamically allocated."
+        }
+    ],
+    "2017-08-13 23:16:18": [
+        {
+            "user": "kiren"
+        },
+        {
+            "text": "Found this on Twitter today! <https://nicoleorchard.com/blog/compilers>"
+        }
+    ],
+    "2017-08-08 04:02:56": [
+        {
+            "user": "nooplion"
+        },
+        {
+            "text": "<@U4YEF6P0Q> did you export the lib search path?"
+        }
+    ],
+    "2017-07-06 16:43:35": [
+        {
+            "user": "naomi"
+        },
+        {
+            "text": "#knowledgebombs"
+        }
+    ],
+    "2017-07-06 16:36:37": [
+        {
+            "user": "olivierc"
+        },
+        {
+            "text": "Do not hesitate to look it up on Wikipedia, it is really interesting to see that in less than 30 years, we went from a very simple CPU ( 8086, to the beast we have now ( i7 7700, etc. )."
+        }
+    ],
+    "2017-07-18 04:47:28": [
+        {
+            "user": "john.c"
+        },
+        {
+            "text": "anyone updating the checker for repo: `simple_shell` for batch # 2?  It seems extra funky -- I can no longer see the auto-review for various tasks including: `18. help` and `17. Comments`\u2026"
+        }
+    ],
+    "2017-08-06 21:06:31": [
+        {
+            "user": "gautie_a"
+        },
+        {
+            "text": "Now <@U48JY609Y> let me see"
+        }
+    ]
+}

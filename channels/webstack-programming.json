@@ -1,0 +1,346 @@
+{
+    "2017-07-07 17:42:21": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "also we can't update the tasks anymore?"
+        }
+    ],
+    "2017-06-26 16:45:56": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "<@U133P4TPS> for the web scraping with python on task #2 \"Please test your script in the container provided, using the web server running on port 5000\" how can I get this container?"
+        }
+    ],
+    "2017-08-14 01:06:54": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "i think i figured it out"
+        }
+    ],
+    "2017-07-16 22:02:04": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "For 25?\n\nI added a section \u201cHow to import a SQL dump\u201d on top of the project"
+        }
+    ],
+    "2017-08-21 17:30:43": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "yes sir"
+        }
+    ],
+    "2017-08-14 00:14:11": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "i am trying to access a function within the user class for unittiesting, does anyone know the proper syntax?"
+        }
+    ],
+    "2017-07-07 17:47:12": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "updated"
+        }
+    ],
+    "2017-08-22 18:53:26": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "yes you will have a 1 week break:\n- 09/11 -&gt; 09/17\n- 12/25 -&gt; 01/01"
+        }
+    ],
+    "2017-06-26 16:47:53": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Please refresh the page :wink:"
+        }
+    ],
+    "2017-07-24 23:41:18": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "no you are - you are the one at the dr"
+        }
+    ],
+    "2017-06-26 16:51:49": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "<@U0EQZP8BY|sgrcia> pinned a message to this channel."
+        }
+    ],
+    "2017-07-04 16:26:46": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "This was really useful <https://oscarotero.com/jquery/>"
+        }
+    ],
+    "2017-08-11 23:50:57": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "anyone have any good unittest youtube videos?"
+        }
+    ],
+    "2017-07-16 20:59:56": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "For 23 - to import the database ... do you have any resources to help with that?"
+        }
+    ],
+    "2017-07-25 00:16:01": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "If you are done, you can also help your peer!"
+        }
+    ],
+    "2017-07-09 18:00:03": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "Do any of you have good resources for 8 and 9 of the jquery peoj3ct?"
+        }
+    ],
+    "2017-08-16 23:02:08": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "in accessibility: `&lt;i&gt;` doesn\u2019t mean anything"
+        }
+    ],
+    "2017-08-23 00:11:06": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "are we going to have access to containers for the 0x01. RESTful API - Users - endpoints project?"
+        }
+    ],
+    "2017-08-22 18:45:34": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "BREAK??!"
+        }
+    ],
+    "2017-07-07 17:41:13": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "in the project it says holbertonschool-higher_level_programming. I know it is a manual review but just wanted to know :slightly_smiling_face:"
+        }
+    ],
+    "2017-07-24 23:35:23": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Wait: it means you already start the project? On Monday? Are you sick Kris?"
+        }
+    ],
+    "2017-07-16 21:00:21": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "i'm trying to figure out how to import that info and am having some trouble"
+        }
+    ],
+    "2017-08-16 23:01:12": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "in the new project, i get this warning in reference to &lt;i&gt; tags - `Semantic markup should be used to mark emphasised or special text so that it can be programmatically determined` And i read up on special text, i guess i\u2019m wondering if we need to take care of warning like this."
+        }
+    ],
+    "2017-07-09 18:11:30": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "is there anything in particular you are struggling with?"
+        }
+    ],
+    "2017-07-07 17:40:35": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "Hey <@U133P4TPS> just to check, should the JQuery project be pushed to holbertonschool-higher_level_programming or holbertonschool-webstack_basics?"
+        }
+    ],
+    "2017-07-09 21:29:46": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "Thanks. "
+        }
+    ],
+    "2017-06-25 01:32:09": [
+        {
+            "user": "daniel"
+        },
+        {
+            "text": "<@U0GUG32F9|daniel> has joined the channel"
+        }
+    ],
+    "2017-07-07 17:50:09": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "great thank you !"
+        }
+    ],
+    "2017-07-07 17:42:37": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "nope"
+        }
+    ],
+    "2017-07-07 17:41:34": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Ho, you right, it\u2019s on ` holbertonschool-webstack_basics`"
+        }
+    ],
+    "2017-08-16 23:01:42": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "yes you have"
+        }
+    ],
+    "2017-07-07 17:42:10": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "cool!"
+        }
+    ],
+    "2017-08-21 17:28:28": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "<!here|@here> I updated the deadline of `0x01. RESTful API - Users - endpoints`. now you have 3 weeks to finish it but you will have 1 or 2 more projects before the break. So don\u2019t wait the deadline to work on it"
+        }
+    ],
+    "2017-07-24 23:49:55": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Ha"
+        }
+    ],
+    "2017-07-24 21:50:41": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "<!here|@here> Please refresh project `0x00. Sass &amp; Scss` <https://intranet.hbtn.io/projects/363>. I changed the repository name"
+        }
+    ],
+    "2017-08-23 02:25:55": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "Thank you!"
+        }
+    ],
+    "2017-07-07 17:44:04": [
+        {
+            "user": "madejean"
+        },
+        {
+            "text": "got it! I think in task 12 div id=\"wind_speed\"  in the html it is still id=\"sf_wind_speed\""
+        }
+    ],
+    "2017-08-14 00:15:38": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "which one?"
+        }
+    ],
+    "2017-07-09 18:17:13": [
+        {
+            "user": "sgrcia"
+        },
+        {
+            "text": "for number #8 probably this will be helpful <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map> and <http://api.jquery.com/append/>"
+        }
+    ],
+    "2017-08-16 23:01:52": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "i can fix them by using a different tag, but then it would just emphaise the text not put it in italics"
+        }
+    ],
+    "2017-07-24 22:49:05": [
+        {
+            "user": "kbredemeier"
+        },
+        {
+            "text": "boo"
+        }
+    ],
+    "2017-08-23 01:24:28": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Now you have containers"
+        }
+    ],
+    "2017-06-26 16:51:05": [
+        {
+            "user": "guillaume.salva"
+        },
+        {
+            "text": "Information about the \u201ccontainer on demand\u201d feature:\n- each container will be destroy after 24h (don\u2019t store critical things inside)\n- from the school, you have to use the private IP, from outside: the public IP\n- each port are mapped to another one\n- to connect via ssh: `ssh root@&lt;private|public ip&gt; -p &lt;port mapped to 22&gt;`"
+        }
+    ]
+}
