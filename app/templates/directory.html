@@ -1,18 +1,32 @@
 {% extends "base.html" %}
 {% import "bootstrap/wtf.html" as wtf%}
 
-{% block title %}Flasky - Login {% endblock %}
+{% block title %}Holberton Channel directory {% endblock %}
 
 {% block page_content %}
 <div class="page-header">
     <h1>Channels</h1>
+    <div>
+        <form>
+            <input name="search"
+                   type="text"
+                   placeholder="Search"
+                   value="{{request.form.search}}"
+                   required/>
+            <input type="submit" value="Search"/>
+        </form>
+    </div>
+    <a href="directory">ALL Channels</a><br>
 </div>
-<div class="directory-list">
-    <ul>
-        {% for item in channel%}
-            <li><a href="channel/{{item}}">{{item}}</a></li>
-        {% endfor %}
-    </ul>
+<div class="col-sm-4">
+
+{% for item in channel%}
+    {% if search in item  %}
+        <a href="channel/{{item}}">{{item}}</a><br>
+    {%elif search == "none"%}
+        <a href="channel/{{item}}">{{item}}</a><br>
+    {% endif %}
+{% endfor %}
 </div>
 
 {% endblock %}

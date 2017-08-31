@@ -26,12 +26,13 @@ def slack_auth():
         history(data).data_distribution()
     return(":)")
 
-@main.route("/directory", methods=["GET"])
+@main.route("/directory", methods=["GET", "POST"])
 @login_required
 def directory():
     '''
         Displays a list of links for all the available channels
     '''
+    search = request.args.get("search", "none")
     with open("channels/channel_ref.json", "r") as chanel_ref:
         ref = json.loads(chanel_ref.read())
         chanel_ref.close()
@@ -39,8 +40,7 @@ def directory():
     for key, value in ref.items():
         channels.append(value)
 
-    return(render_template("directory.html", channel = channels))
-
+    return(render_template("directory.html",channel = sorted(channels), search=search))
 
 @main.route("/channel/<channel_name>", methods=["GET"])
 @login_required
