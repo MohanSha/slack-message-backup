@@ -138,7 +138,7 @@ def channel_history(token):
             print(history)
         # Getting the file and writing to it
         file = "channels/{}.json".format(name)
-        print("Updating channel {}".format(name))
+        print("Backing up channel {}".format(name))
 
         with open(file, "w") as history_file:
             history_file.write(json.dumps(load, indent=4))
@@ -147,7 +147,8 @@ def channel_history(token):
 
 if __name__ == "__main__":
     token = os.getenv("token_slack")
-    # getting_channels(token)
-    # getting_users(token)
-    # create_groups(token)
+    getting_channels(token)
+    getting_users(token)
+    create_groups(token)
     channel_history(token)
+
