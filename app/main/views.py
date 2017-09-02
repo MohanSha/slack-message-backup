@@ -56,6 +56,7 @@ def getting_history(channel_name=None):
         history = json.loads(channel.read())
         channel.close()
     sorted_dates = sorted(history, key=lambda x: datetime.strptime(x, "%Y-%m-%d %H:%M:%S"))
+    sorted_date = sorted_dates.reverse()
     #return(json.dumps(history, indent=4))
     return (render_template("channel.html", history=history, dates=sorted_dates))
 
