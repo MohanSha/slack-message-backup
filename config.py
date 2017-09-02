@@ -2,7 +2,7 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config:
-    SECRET_KEY = os.environ.get("SECRET_KEY")
+    SECRET_KEY = "2358h2wfnij98hui352noiwfjhuon532j"#os.environ.get("SECRET_KEY")
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
     FLASKY_MAIL_SUBJECT_PREFIX = "[Flasky]"
     FLASKY_MAIL_SENDER = "Admin <admin@admin.com>"
