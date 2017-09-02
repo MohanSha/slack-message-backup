@@ -13,7 +13,7 @@ import os
 import json
 
 
-@main.route("/", methods=["POST"])
+@main.route("/", methods=["POST", "GET"])
 def slack_auth():
     '''
         On the first call with Slack's API it authenticates the server.
@@ -24,8 +24,11 @@ def slack_auth():
         # only used for once for app verification
         return (data["challenge"])
     except:
-        history(data).data_distribution()
-    return(":)")
+        try:
+            history(data).data_distribution()
+        except:
+            pass
+    return(redirect(url_for("main.directory"), code=302))
 
 @main.route("/directory", methods=["GET", "POST"])
 @login_required
