@@ -26,7 +26,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 {% if current_user.is_authenticated %}
-                <li><a href="{{ url_for('main.slack_auth') }}">Sign Out</a></li>
+                <li><a href="{{ url_for('auth.logout') }}">Sign Out</a></li>
                 {% else %}
                 <li><a href="{{ url_for('main.slack_auth') }}">Sign In</a></li>
                 {% endif %}
