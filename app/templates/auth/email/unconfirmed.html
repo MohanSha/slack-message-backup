@@ -1,0 +1,18 @@
+
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Holberton School Slack Backup{% endblock %}
+
+{% block page_content%}
+<div class="page-header">
+  <h1>Hello {{ current_user.username }},</h1>
+  <h2> You have not confirmed your account yet!</h2>
+  <p>
+    Before you can access your account you need to confirm your account.<br><br>
+    Check you inbox, you should have received an email with a confirmation link<br><br>
+    Need another confirmation email? <a href="{{ url_for('auth.resend_confirmation') }}">Click here.</a>
+  </p>
+</div>
+
+{% endblock %}

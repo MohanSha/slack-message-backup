@@ -8,6 +8,7 @@ from flask import current_app
 @login_manager.user_loader
 def load_user(user_id):
     return( User.query.get(int(user_id)))
+
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), unique=True, index=True)
@@ -15,6 +16,22 @@ class User(db.Model, UserMixin):
     email = db.Column(db.String(64), unique=True, index=True)
     confirmed = db.Column(db.Boolean, default=False)
 
+    def generate_confirmation_token(self, expiration=3600):
+        s = Serializer(current_app.config["SECRET_KEY"], expiration)
+        return (s.dumps({"confirm": self.id}))
+
+    def confirm(self, token):
+        s = Serializer(current_app.config["SECRET_KEY"])
+        try:
+            data = s.loads(token)
+        except:
+            return (False)
+        if data.get("confirm") != self.id:
+            return(False)
+        self.confirmed = True
+        db.session.add(self)
+        return (True)
+    
     def __repr__(self):
         return ("<user> %r" % self.user_name)
 
