@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf%}
+
+{% block title %}404{% endblock %}
+
+{% block page_content %}
+
+<div class="container">
+        <div class="row">
+          <div class="span4"></div>
+          <div class="span4"><img class="center-block" src="{{url_for('static', filename='404lost.png')}}" /></div>
+          <div class="span4"></div>
+        </div>
+{% endblock %}
