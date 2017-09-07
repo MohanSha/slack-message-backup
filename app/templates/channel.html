@@ -4,7 +4,17 @@
 {% block title %}Holberton Channel directory {% endblock %}
 
 {% block page_content %}
+<div class="page-header">
+    <h1>{{channel_name}}</h1>
+    <nav class="navbar navbar-light bg-faded" style="margin-bottom:0px; padding-bottom:0px;">
+      <form class="form-inline">
+          <input class="form-control mr-sm-2" name="search" type="text" placeholder="Search" value="{{request.form.search}}" required>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" value="Search">Search</button>
+      </form>
+      </nav>
+</div>
 {% for date in dates:%}
+{%if search in history[date][1]["text"]%}
 <div class="card" style="border-bottom: 1px solid #BACAC8; padding: 10px; margin: 10px;">
   <div class="card-block">
     <h4 class="card-title">{{history[date][0]["user"]}}</h4>
@@ -14,8 +24,16 @@
     </p>
   </div>
 </div>
-
-
-
+{%elif search == "none" %}
+<div class="card" style="border-bottom: 1px solid #BACAC8; padding: 10px; margin: 10px;">
+    <div class="card-block">
+      <h4 class="card-title">{{history[date][0]["user"]}}</h4>
+      <h6 class="card-subtitle mb-2 text-muted">{{date}}</h6>
+      <p class="card-text">
+        {{history[date][1]["text"]}}
+      </p>
+    </div>
+  </div>
+{%endif%}
 {%endfor%}
 {% endblock %}

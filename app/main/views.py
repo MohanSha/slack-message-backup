@@ -3,7 +3,6 @@ from flask import render_template, session, redirect, url_for
 from flask_login import login_required
 
 from . import main
-# from .forms import Nameform
 from .. import db
 from ..models import User
 
@@ -46,13 +45,15 @@ def directory():
 
     return(render_template("directory.html",channel = sorted(channels), search=search))
 
-@main.route("/channel/<channel_name>", methods=["GET"])
+@main.route("/channel/<channel_name>", methods=["GET", "POST"])
 @login_required
 def getting_history(channel_name=None):
     '''
         Retrives channels history based on a channel name and returns it to
         the desired route
     '''
+    # Getting the search keywords
+    search = request.args.get("search", "none")
     # Getting channel info
     file_path = "channels/{}.json".format(channel_name)
     with open(file_path, "r") as channel:
@@ -60,6 +61,10 @@ def getting_history(channel_name=None):
         channel.close()
     sorted_dates = sorted(history, key=lambda x: datetime.strptime(x, "%Y-%m-%d %H:%M:%S"))
     sorted_date = sorted_dates.reverse()
-    #return(json.dumps(history, indent=4))
-    return (render_template("channel.html", history=history, dates=sorted_dates))
+
+    return (render_template("channel.html",
+                             history=history,
+                             dates=sorted_dates,
+                             search=search,
+                             channel_name=channel_name))
 
